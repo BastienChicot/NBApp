@@ -1,0 +1,83 @@
+,Date,Team
+1,Wed Oct 20 2021,New York Knicks
+2,Fri Oct 22 2021,Toronto Raptors
+3,Sun Oct 24 2021,Houston Rockets
+4,Mon Oct 25 2021,Charlotte Hornets
+5,Wed Oct 27 2021,Washington Wizards
+6,Sat Oct 30 2021,Washington Wizards
+7,Mon Nov 1 2021,Chicago Bulls
+8,Wed Nov 3 2021,Orlando Magic
+9,Thu Nov 4 2021,Miami Heat
+10,Sat Nov 6 2021,Dallas Mavericks
+11,Wed Nov 10 2021,Toronto Raptors
+12,Fri Nov 12 2021,Milwaukee Bucks
+13,Sat Nov 13 2021,Cleveland Cavaliers
+14,Mon Nov 15 2021,Cleveland Cavaliers
+15,Wed Nov 17 2021,Atlanta Hawks
+16,Fri Nov 19 2021,Los Angeles Lakers
+17,Sat Nov 20 2021,Oklahoma City Thunder
+18,Mon Nov 22 2021,Houston Rockets
+19,Wed Nov 24 2021,Brooklyn Nets
+20,Fri Nov 26 2021,San Antonio Spurs
+21,Sun Nov 28 2021,Toronto Raptors
+22,Wed Dec 1 2021,Philadelphia 76ers
+23,Fri Dec 3 2021,Utah Jazz
+24,Sat Dec 4 2021,Portland Trail Blazers
+25,Tue Dec 7 2021,Los Angeles Lakers
+26,Wed Dec 8 2021,Los Angeles Clippers
+27,Fri Dec 10 2021,Phoenix Suns
+28,Mon Dec 13 2021,Milwaukee Bucks
+29,Fri Dec 17 2021,Golden State Warriors
+30,Sat Dec 18 2021,New York Knicks
+31,Mon Dec 20 2021,Philadelphia 76ers
+32,Wed Dec 22 2021,Cleveland Cavaliers
+33,Sat Dec 25 2021,Milwaukee Bucks
+34,Mon Dec 27 2021,Minnesota Timberwolves
+35,Wed Dec 29 2021,Los Angeles Clippers
+36,Fri Dec 31 2021,Phoenix Suns
+37,Sun Jan 2 2022,Orlando Magic
+38,Wed Jan 5 2022,San Antonio Spurs
+39,Thu Jan 6 2022,New York Knicks
+40,Sat Jan 8 2022,New York Knicks
+41,Mon Jan 10 2022,Indiana Pacers
+42,Wed Jan 12 2022,Indiana Pacers
+43,Fri Jan 14 2022,Philadelphia 76ers
+44,Sat Jan 15 2022,Chicago Bulls
+45,Mon Jan 17 2022,New Orleans Pelicans
+46,Wed Jan 19 2022,Charlotte Hornets
+47,Fri Jan 21 2022,Portland Trail Blazers
+48,Sun Jan 23 2022,Washington Wizards
+49,Tue Jan 25 2022,Sacramento Kings
+50,Fri Jan 28 2022,Atlanta Hawks
+51,Sat Jan 29 2022,New Orleans Pelicans
+52,Mon Jan 31 2022,Miami Heat
+53,Wed Feb 2 2022,Charlotte Hornets
+54,Fri Feb 4 2022,Detroit Pistons
+55,Sun Feb 6 2022,Orlando Magic
+56,Tue Feb 8 2022,Brooklyn Nets
+57,Fri Feb 11 2022,Denver Nuggets
+58,Sun Feb 13 2022,Atlanta Hawks
+59,Tue Feb 15 2022,Philadelphia 76ers
+60,Wed Feb 16 2022,Detroit Pistons
+61,Thu Feb 24 2022,Brooklyn Nets
+62,Sat Feb 26 2022,Detroit Pistons
+63,Sun Feb 27 2022,Indiana Pacers
+64,Tue Mar 1 2022,Atlanta Hawks
+65,Thu Mar 3 2022,Memphis Grizzlies
+66,Sun Mar 6 2022,Brooklyn Nets
+67,Wed Mar 9 2022,Charlotte Hornets
+68,Fri Mar 11 2022,Detroit Pistons
+69,Sun Mar 13 2022,Dallas Mavericks
+70,Wed Mar 16 2022,Golden State Warriors
+71,Fri Mar 18 2022,Sacramento Kings
+72,Sun Mar 20 2022,Denver Nuggets
+73,Mon Mar 21 2022,Oklahoma City Thunder
+74,Wed Mar 23 2022,Utah Jazz
+75,Sun Mar 27 2022,Minnesota Timberwolves
+76,Mon Mar 28 2022,Toronto Raptors
+77,Wed Mar 30 2022,Miami Heat
+78,Fri Apr 1 2022,Indiana Pacers
+79,Sun Apr 3 2022,Washington Wizards
+80,Wed Apr 6 2022,Chicago Bulls
+81,Thu Apr 7 2022,Milwaukee Bucks
+82,Sun Apr 10 2022,Memphis Grizzlies

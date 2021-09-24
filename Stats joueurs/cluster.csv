@@ -1,0 +1,3071 @@
+;Key;annee;cluster
+0;Alvin Gentry;2009;3
+1;Alvin Gentry;2010;0
+2;Alvin Gentry;2011;4
+3;Alvin Gentry;2012;0
+4;Alvin Gentry;2016;0
+5;Alvin Gentry;2017;0
+6;Alvin Gentry;2018;0
+7;Alvin Gentry;2019;0
+8;Alvin Gentry;2020;3
+9;Avery Johnson;2011;4
+10;Avery Johnson;2012;2
+11;Billy Donovan;2016;0
+12;Billy Donovan;2017;0
+13;Billy Donovan;2018;3
+14;Billy Donovan;2019;0
+15;Billy Donovan;2020;3
+16;Billy Donovan;2021;3
+17;Brad Stevens;2014;0
+18;Brad Stevens;2015;0
+19;Brad Stevens;2016;0
+20;Brad Stevens;2017;0
+21;Brad Stevens;2018;3
+22;Brad Stevens;2019;3
+23;Brad Stevens;2020;3
+24;Brad Stevens;2021;3
+25;Brett Brown;2014;2
+26;Brett Brown;2015;0
+27;Brett Brown;2016;0
+28;Brett Brown;2017;0
+29;Brett Brown;2018;0
+30;Brett Brown;2019;0
+31;Brett Brown;2020;3
+32;Brian Hill;2006;4
+33;Brian Hill;2007;3
+34;Brian Shaw;2014;1
+35;Byron Scott;2006;0
+36;Byron Scott;2007;2
+37;Byron Scott;2008;4
+38;Byron Scott;2009;4
+39;Byron Scott;2012;0
+40;Byron Scott;2013;4
+41;Byron Scott;2015;0
+42;Byron Scott;2016;4
+43;Chris Finch;2021;3
+44;Dave Joerger;2014;0
+45;Dave Joerger;2015;0
+46;Dave Joerger;2016;3
+47;Dave Joerger;2017;3
+48;Dave Joerger;2018;3
+49;Dave Joerger;2019;0
+50;David Blatt;2015;0
+51;David Fizdale;2017;0
+52;David Fizdale;2019;3
+53;Derek Fisher;2015;4
+54;Doc Rivers;2007;3
+55;Doc Rivers;2008;2
+56;Doc Rivers;2009;4
+57;Doc Rivers;2010;4
+58;Doc Rivers;2011;4
+59;Doc Rivers;2012;4
+60;Doc Rivers;2013;2
+61;Doc Rivers;2014;0
+62;Doc Rivers;2015;0
+63;Doc Rivers;2016;0
+64;Doc Rivers;2017;0
+65;Doc Rivers;2018;0
+66;Doc Rivers;2019;0
+67;Doc Rivers;2020;3
+68;Doc Rivers;2021;3
+69;Don Nelson;2010;2
+70;Doug Collins;2011;0
+71;Doug Collins;2012;0
+72;Doug Collins;2013;4
+73;Dwane Casey;2012;0
+74;Dwane Casey;2013;0
+75;Dwane Casey;2014;0
+76;Dwane Casey;2015;0
+77;Dwane Casey;2016;0
+78;Dwane Casey;2017;0
+79;Dwane Casey;2018;3
+80;Dwane Casey;2019;3
+81;Dwane Casey;2020;3
+82;Dwane Casey;2021;3
+83;Earl Watson;2016;0
+84;Earl Watson;2017;0
+85;Ed Tapscott;2009;1
+86;Eddie Jordan;2006;4
+87;Eddie Jordan;2007;3
+88;Eddie Jordan;2010;0
+89;Erik Spoelstra;2009;2
+90;Erik Spoelstra;2010;1
+91;Erik Spoelstra;2011;4
+92;Erik Spoelstra;2012;0
+93;Erik Spoelstra;2013;4
+94;Erik Spoelstra;2014;0
+95;Erik Spoelstra;2015;3
+96;Erik Spoelstra;2016;0
+97;Erik Spoelstra;2017;0
+98;Erik Spoelstra;2018;0
+99;Erik Spoelstra;2019;3
+100;Erik Spoelstra;2020;3
+101;Erik Spoelstra;2021;3
+102;Flip Saunders;2006;4
+103;Flip Saunders;2007;2
+104;Flip Saunders;2008;0
+105;Flip Saunders;2010;0
+106;Flip Saunders;2011;4
+107;Flip Saunders;2015;0
+108;Frank Vogel;2011;0
+109;Frank Vogel;2012;0
+110;Frank Vogel;2013;4
+111;Frank Vogel;2014;4
+112;Frank Vogel;2015;4
+113;Frank Vogel;2016;0
+114;Frank Vogel;2017;0
+115;Frank Vogel;2018;3
+116;Frank Vogel;2020;3
+117;Frank Vogel;2021;3
+118;Fred Hoiberg;2016;4
+119;Fred Hoiberg;2017;0
+120;Fred Hoiberg;2018;3
+121;George Karl;2006;3
+122;George Karl;2007;0
+123;George Karl;2008;2
+124;George Karl;2009;4
+125;George Karl;2010;2
+126;George Karl;2011;4
+127;George Karl;2012;4
+128;George Karl;2013;0
+129;George Karl;2015;2
+130;George Karl;2016;0
+131;Gregg Popovich;2006;2
+132;Gregg Popovich;2007;4
+133;Gregg Popovich;2008;2
+134;Gregg Popovich;2009;1
+135;Gregg Popovich;2010;0
+136;Gregg Popovich;2011;1
+137;Gregg Popovich;2012;0
+138;Gregg Popovich;2013;4
+139;Gregg Popovich;2014;4
+140;Gregg Popovich;2015;0
+141;Gregg Popovich;2016;0
+142;Gregg Popovich;2017;0
+143;Gregg Popovich;2018;3
+144;Gregg Popovich;2019;3
+145;Gregg Popovich;2020;3
+146;Gregg Popovich;2021;3
+147;Igor Kokoskov;2019;3
+148;J.B. Bickerstaff;2016;0
+149;J.B. Bickerstaff;2018;3
+150;J.B. Bickerstaff;2019;3
+151;J.B. Bickerstaff;2020;3
+152;J.B. Bickerstaff;2021;3
+153;Jacque Vaughn;2013;0
+154;Jacque Vaughn;2014;0
+155;Jacque Vaughn;2020;3
+156;James Borrego;2015;3
+157;James Borrego;2019;3
+158;James Borrego;2020;3
+159;James Borrego;2021;3
+160;Jason Kidd;2014;3
+161;Jason Kidd;2015;0
+162;Jason Kidd;2016;4
+163;Jason Kidd;2017;0
+164;Jay Triano;2010;2
+165;Jay Triano;2011;4
+166;Jay Triano;2018;0
+167;Jeff Bower;2010;4
+168;Jeff Hornacek;2014;0
+169;Jeff Hornacek;2015;4
+170;Jeff Hornacek;2017;0
+171;Jeff Hornacek;2018;3
+172;Jerry Sloan;2007;1
+173;Jerry Sloan;2008;1
+174;Jerry Sloan;2009;0
+175;Jerry Sloan;2010;3
+176;Jim Boylan;2013;3
+177;Jim Boylen;2019;3
+178;Jim Boylen;2020;3
+179;Joe Prunty;2018;3
+180;John Kuester;2010;4
+181;John Kuester;2011;4
+182;John Loyer;2014;4
+183;Kaleb Canales;2012;4
+184;Keith Smart;2011;2
+185;Keith Smart;2012;4
+186;Keith Smart;2013;0
+187;Kenny Atkinson;2017;0
+188;Kenny Atkinson;2018;0
+189;Kenny Atkinson;2019;0
+190;Kevin McHale;2009;3
+191;Kevin McHale;2012;0
+192;Kevin McHale;2013;4
+193;Kevin McHale;2014;2
+194;Kevin McHale;2015;2
+195;Kiki Vandeweghe;2010;4
+196;Kim Hughes;2010;4
+197;Kurt Rambis;2010;3
+198;Kurt Rambis;2011;4
+199;Kurt Rambis;2016;0
+200;Larry Brown;2006;4
+201;Larry Brown;2009;1
+202;Larry Drew;2011;4
+203;Larry Drew;2012;2
+204;Larry Drew;2013;4
+205;Larry Drew;2014;0
+206;Larry Drew;2019;3
+207;Lawrence Frank;2009;3
+208;Lawrence Frank;2012;4
+209;Lawrence Frank;2013;0
+210;Lindsey Hunter;2013;4
+211;Lionel Hollins;2009;0
+212;Lionel Hollins;2010;2
+213;Lionel Hollins;2011;4
+214;Lionel Hollins;2012;4
+215;Lionel Hollins;2013;0
+216;Lionel Hollins;2015;0
+217;Lloyd Pierce;2019;0
+218;Lloyd Pierce;2020;3
+219;Luke Walton;2017;0
+220;Luke Walton;2018;0
+221;Luke Walton;2019;0
+222;Luke Walton;2020;3
+223;Luke Walton;2021;3
+224;Marc Iavaroni;2008;4
+225;Mark Daigneault;2021;3
+226;Mark Jackson;2012;4
+227;Mark Jackson;2013;0
+228;Mark Jackson;2014;0
+229;Maurice Cheeks;2006;2
+230;Maurice Cheeks;2007;2
+231;Maurice Cheeks;2008;3
+232;Melvin Hunt;2015;3
+233;Michael Curry;2009;2
+234;Michael Malone;2014;0
+235;Michael Malone;2016;0
+236;Michael Malone;2017;0
+237;Michael Malone;2018;0
+238;Michael Malone;2019;3
+239;Michael Malone;2020;3
+240;Michael Malone;2021;3
+241;Mike Brown;2006;0
+242;Mike Brown;2007;3
+243;Mike Brown;2008;0
+244;Mike Brown;2009;4
+245;Mike Brown;2010;2
+246;Mike Brown;2014;0
+247;Mike Budenholzer;2014;0
+248;Mike Budenholzer;2015;0
+249;Mike Budenholzer;2016;0
+250;Mike Budenholzer;2017;0
+251;Mike Budenholzer;2018;3
+252;Mike Budenholzer;2019;0
+253;Mike Budenholzer;2020;3
+254;Mike Budenholzer;2021;3
+255;Mike D'Antoni;2009;1
+256;Mike D'Antoni;2010;2
+257;Mike D'Antoni;2011;2
+258;Mike D'Antoni;2013;2
+259;Mike D'Antoni;2014;4
+260;Mike D'Antoni;2017;0
+261;Mike D'Antoni;2018;0
+262;Mike D'Antoni;2019;3
+263;Mike D'Antoni;2020;3
+264;Mike Dunlap;2013;0
+265;Mike Dunleavy;2009;4
+266;Mike Miller;2020;3
+267;Mike Woodson;2008;4
+268;Mike Woodson;2009;4
+269;Mike Woodson;2010;4
+270;Mike Woodson;2012;4
+271;Mike Woodson;2013;4
+272;Mike Woodson;2014;4
+273;Monty Williams;2011;4
+274;Monty Williams;2012;0
+275;Monty Williams;2013;0
+276;Monty Williams;2014;0
+277;Monty Williams;2015;4
+278;Monty Williams;2020;3
+279;Monty Williams;2021;3
+280;Nate Bjorkgren;2021;3
+281;Nate McMillan;2007;3
+282;Nate McMillan;2008;2
+283;Nate McMillan;2009;0
+284;Nate McMillan;2010;4
+285;Nate McMillan;2011;4
+286;Nate McMillan;2017;4
+287;Nate McMillan;2018;0
+288;Nate McMillan;2019;3
+289;Nate McMillan;2020;3
+290;Nate McMillan;2021;3
+291;Nick Nurse;2019;3
+292;Nick Nurse;2020;3
+293;Nick Nurse;2021;3
+294;P.J. Carlesimo;2008;4
+295;P.J. Carlesimo;2013;2
+296;Pat Riley;2006;2
+297;Pat Riley;2007;2
+298;Pat Riley;2008;2
+299;Paul Silas;2011;1
+300;Paul Silas;2012;4
+301;Paul Westphal;2011;4
+302;Phil Jackson;2008;1
+303;Phil Jackson;2009;3
+304;Quin Snyder;2015;0
+305;Quin Snyder;2016;0
+306;Quin Snyder;2017;3
+307;Quin Snyder;2018;3
+308;Quin Snyder;2019;3
+309;Quin Snyder;2020;3
+310;Quin Snyder;2021;3
+311;Randy Wittman;2012;4
+312;Randy Wittman;2013;0
+313;Randy Wittman;2014;0
+314;Randy Wittman;2015;0
+315;Randy Wittman;2016;0
+316;Rick Adelman;2009;1
+317;Rick Adelman;2010;0
+318;Rick Adelman;2011;4
+319;Rick Adelman;2012;4
+320;Rick Adelman;2013;4
+321;Rick Adelman;2014;4
+322;Rick Carlisle;2013;1
+323;Rick Carlisle;2014;1
+324;Rick Carlisle;2015;3
+325;Rick Carlisle;2016;1
+326;Rick Carlisle;2017;3
+327;Rick Carlisle;2018;3
+328;Rick Carlisle;2019;0
+329;Rick Carlisle;2020;3
+330;Rick Carlisle;2021;3
+331;Ryan Saunders;2019;3
+332;Ryan Saunders;2020;3
+333;Sam Mitchell;2006;1
+334;Sam Mitchell;2016;0
+335;Sam Vincent;2008;3
+336;Scott Brooks;2009;4
+337;Scott Brooks;2010;0
+338;Scott Brooks;2011;4
+339;Scott Brooks;2012;0
+340;Scott Brooks;2013;0
+341;Scott Brooks;2014;0
+342;Scott Brooks;2015;0
+343;Scott Brooks;2017;0
+344;Scott Brooks;2018;3
+345;Scott Brooks;2019;0
+346;Scott Brooks;2020;3
+347;Scott Brooks;2021;3
+348;Scott Skiles;2009;1
+349;Scott Skiles;2011;1
+350;Scott Skiles;2016;0
+351;Stan Van Gundy;2008;2
+352;Stan Van Gundy;2009;4
+353;Stan Van Gundy;2010;4
+354;Stan Van Gundy;2011;2
+355;Stan Van Gundy;2012;4
+356;Stan Van Gundy;2015;0
+357;Stan Van Gundy;2016;0
+358;Stan Van Gundy;2017;3
+359;Stan Van Gundy;2018;3
+360;Stan Van Gundy;2021;3
+361;Stephen Silas;2021;3
+362;Steve Clifford;2014;1
+363;Steve Clifford;2015;0
+364;Steve Clifford;2016;0
+365;Steve Clifford;2017;0
+366;Steve Clifford;2018;0
+367;Steve Clifford;2019;3
+368;Steve Clifford;2020;3
+369;Steve Clifford;2021;3
+370;Steve Kerr;2015;0
+371;Steve Kerr;2016;0
+372;Steve Kerr;2017;0
+373;Steve Kerr;2018;0
+374;Steve Kerr;2019;3
+375;Steve Kerr;2020;3
+376;Steve Kerr;2021;3
+377;Steve Nash;2021;3
+378;Taylor Jenkins;2020;3
+379;Taylor Jenkins;2021;3
+380;Terry Stotts;2013;0
+381;Terry Stotts;2014;2
+382;Terry Stotts;2015;4
+383;Terry Stotts;2016;0
+384;Terry Stotts;2017;0
+385;Terry Stotts;2018;0
+386;Terry Stotts;2019;0
+387;Terry Stotts;2020;3
+388;Terry Stotts;2021;3
+389;Tom Thibodeau;2011;4
+390;Tom Thibodeau;2012;0
+391;Tom Thibodeau;2013;3
+392;Tom Thibodeau;2014;0
+393;Tom Thibodeau;2015;0
+394;Tom Thibodeau;2017;0
+395;Tom Thibodeau;2018;3
+396;Tom Thibodeau;2021;3
+397;Tony Barone;2007;0
+398;Tony Brown;2016;0
+399;Tony DiLeo;2009;4
+400;Tyrone Corbin;2011;4
+401;Tyrone Corbin;2012;0
+402;Tyrone Corbin;2013;3
+403;Tyrone Corbin;2014;3
+404;Tyronn Lue;2016;3
+405;Tyronn Lue;2017;2
+406;Tyronn Lue;2018;0
+407;Tyronn Lue;2021;3
+408;Vinny Del Negro;2009;2
+409;Vinny Del Negro;2010;4
+410;Vinny Del Negro;2011;4
+411;Vinny Del Negro;2012;0
+412;Vinny Del Negro;2013;0
+413;ATL;2006;1
+414;ATL;2007;1
+415;ATL;2008;3
+416;ATL;2009;4
+417;ATL;2010;3
+418;ATL;2011;4
+419;ATL;2012;1
+420;ATL;2013;4
+421;ATL;2014;1
+422;ATL;2015;4
+423;ATL;2016;4
+424;ATL;2017;4
+425;ATL;2018;0
+426;ATL;2019;1
+427;ATL;2020;1
+428;ATL;2021;0
+429;BOS;2006;1
+430;BOS;2007;0
+431;BOS;2008;4
+432;BOS;2009;2
+433;BOS;2010;2
+434;BOS;2011;4
+435;BOS;2012;4
+436;BOS;2013;4
+437;BOS;2014;4
+438;BOS;2015;1
+439;BOS;2016;1
+440;BOS;2017;1
+441;BOS;2018;2
+442;BOS;2019;0
+443;BOS;2020;0
+444;BOS;2021;0
+445;BRK;2013;1
+446;BRK;2014;0
+447;BRK;2015;1
+448;BRK;2016;1
+449;BRK;2017;1
+450;BRK;2018;1
+451;BRK;2019;1
+452;BRK;2020;0
+453;BRK;2021;0
+454;CHA;2006;3
+455;CHA;2007;2
+456;CHA;2008;4
+457;CHA;2009;2
+458;CHA;2010;4
+459;CHA;2011;4
+460;CHA;2012;1
+461;CHA;2013;1
+462;CHA;2014;4
+463;CHI;2006;3
+464;CHI;2007;1
+465;CHI;2008;4
+466;CHI;2009;3
+467;CHI;2010;4
+468;CHI;2011;4
+469;CHI;2012;3
+470;CHI;2013;4
+471;CHI;2014;2
+472;CHI;2015;4
+473;CHI;2016;3
+474;CHI;2017;4
+475;CHI;2018;1
+476;CHI;2019;0
+477;CHI;2020;0
+478;CHI;2021;0
+479;CHO;2015;4
+480;CHO;2016;4
+481;CHO;2017;4
+482;CHO;2018;1
+483;CHO;2019;0
+484;CHO;2020;0
+485;CHO;2021;0
+486;CLE;2006;2
+487;CLE;2007;0
+488;CLE;2008;4
+489;CLE;2009;2
+490;CLE;2010;3
+491;CLE;2011;4
+492;CLE;2012;0
+493;CLE;2013;1
+494;CLE;2014;1
+495;CLE;2015;1
+496;CLE;2016;0
+497;CLE;2017;1
+498;CLE;2018;1
+499;CLE;2019;0
+500;CLE;2020;0
+501;CLE;2021;0
+502;DAL;2006;4
+503;DAL;2007;4
+504;DAL;2008;4
+505;DAL;2009;1
+506;DAL;2010;4
+507;DAL;2011;4
+508;DAL;2012;4
+509;DAL;2013;1
+510;DAL;2014;1
+511;DAL;2015;4
+512;DAL;2016;4
+513;DAL;2017;0
+514;DAL;2018;0
+515;DAL;2019;0
+516;DAL;2020;0
+517;DAL;2021;0
+518;DEN;2006;2
+519;DEN;2007;0
+520;DEN;2008;3
+521;DEN;2009;0
+522;DEN;2010;4
+523;DEN;2011;4
+524;DEN;2012;1
+525;DEN;2013;4
+526;DEN;2014;1
+527;DEN;2015;1
+528;DEN;2016;1
+529;DEN;2017;1
+530;DEN;2018;0
+531;DEN;2019;0
+532;DEN;2020;0
+533;DEN;2021;0
+534;DET;2006;2
+535;DET;2007;2
+536;DET;2008;2
+537;DET;2009;1
+538;DET;2010;1
+539;DET;2011;1
+540;DET;2012;1
+541;DET;2013;1
+542;DET;2014;1
+543;DET;2015;0
+544;DET;2016;4
+545;DET;2017;0
+546;DET;2018;0
+547;DET;2019;0
+548;DET;2020;0
+549;DET;2021;0
+550;GSW;2006;4
+551;GSW;2007;3
+552;GSW;2008;3
+553;GSW;2009;3
+554;GSW;2010;3
+555;GSW;2011;1
+556;GSW;2012;1
+557;GSW;2013;1
+558;GSW;2014;4
+559;GSW;2015;4
+560;GSW;2016;1
+561;GSW;2017;4
+562;GSW;2018;0
+563;GSW;2019;0
+564;GSW;2020;0
+565;GSW;2021;0
+566;HOU;2006;2
+567;HOU;2007;2
+568;HOU;2008;2
+569;HOU;2009;2
+570;HOU;2010;4
+571;HOU;2011;3
+572;HOU;2012;1
+573;HOU;2013;1
+574;HOU;2014;1
+575;HOU;2015;1
+576;HOU;2016;1
+577;HOU;2017;1
+578;HOU;2018;0
+579;HOU;2019;0
+580;HOU;2020;0
+581;HOU;2021;0
+582;IND;2006;4
+583;IND;2007;0
+584;IND;2008;1
+585;IND;2009;1
+586;IND;2010;4
+587;IND;2011;3
+588;IND;2012;2
+589;IND;2013;4
+590;IND;2014;4
+591;IND;2015;1
+592;IND;2016;1
+593;IND;2017;0
+594;IND;2018;0
+595;IND;2019;0
+596;IND;2020;0
+597;IND;2021;0
+598;LAC;2006;4
+599;LAC;2007;2
+600;LAC;2008;3
+601;LAC;2009;3
+602;LAC;2010;3
+603;LAC;2011;4
+604;LAC;2012;2
+605;LAC;2013;0
+606;LAC;2014;4
+607;LAC;2015;0
+608;LAC;2016;4
+609;LAC;2017;0
+610;LAC;2018;1
+611;LAC;2019;1
+612;LAC;2020;0
+613;LAC;2021;0
+614;LAL;2006;2
+615;LAL;2007;1
+616;LAL;2008;3
+617;LAL;2009;4
+618;LAL;2010;4
+619;LAL;2011;4
+620;LAL;2012;4
+621;LAL;2013;3
+622;LAL;2014;1
+623;LAL;2015;1
+624;LAL;2016;0
+625;LAL;2017;1
+626;LAL;2018;1
+627;LAL;2019;1
+628;LAL;2020;0
+629;LAL;2021;0
+630;MEM;2006;4
+631;MEM;2007;0
+632;MEM;2008;3
+633;MEM;2009;1
+634;MEM;2010;4
+635;MEM;2011;4
+636;MEM;2012;0
+637;MEM;2013;2
+638;MEM;2014;4
+639;MEM;2015;2
+640;MEM;2016;0
+641;MEM;2017;0
+642;MEM;2018;0
+643;MEM;2019;0
+644;MEM;2020;0
+645;MEM;2021;0
+646;MIA;2006;3
+647;MIA;2007;4
+648;MIA;2008;4
+649;MIA;2009;4
+650;MIA;2010;4
+651;MIA;2011;4
+652;MIA;2012;4
+653;MIA;2013;1
+654;MIA;2014;2
+655;MIA;2015;0
+656;MIA;2016;4
+657;MIA;2017;4
+658;MIA;2018;0
+659;MIA;2019;0
+660;MIA;2020;0
+661;MIA;2021;0
+662;MIL;2006;4
+663;MIL;2007;1
+664;MIL;2008;1
+665;MIL;2009;0
+666;MIL;2010;2
+667;MIL;2011;2
+668;MIL;2012;3
+669;MIL;2013;3
+670;MIL;2014;1
+671;MIL;2015;0
+672;MIL;2016;0
+673;MIL;2017;0
+674;MIL;2018;0
+675;MIL;2019;1
+676;MIL;2020;0
+677;MIL;2021;0
+678;MIN;2006;3
+679;MIN;2007;1
+680;MIN;2008;3
+681;MIN;2009;1
+682;MIN;2010;4
+683;MIN;2011;3
+684;MIN;2012;3
+685;MIN;2013;0
+686;MIN;2014;1
+687;MIN;2015;1
+688;MIN;2016;1
+689;MIN;2017;1
+690;MIN;2018;0
+691;MIN;2019;0
+692;MIN;2020;1
+693;MIN;2021;0
+694;NJN;2006;4
+695;NJN;2007;3
+696;NJN;2008;4
+697;NJN;2009;0
+698;NJN;2010;3
+699;NJN;2011;4
+700;NJN;2012;1
+701;NOH;2008;4
+702;NOH;2009;0
+703;NOH;2010;4
+704;NOH;2011;4
+705;NOH;2012;1
+706;NOH;2013;0
+707;NOK;2006;1
+708;NOK;2007;1
+709;NOP;2014;1
+710;NOP;2015;4
+711;NOP;2016;1
+712;NOP;2017;1
+713;NOP;2018;1
+714;NOP;2019;1
+715;NOP;2020;0
+716;NOP;2021;0
+717;NYK;2006;3
+718;NYK;2007;3
+719;NYK;2008;3
+720;NYK;2009;3
+721;NYK;2010;3
+722;NYK;2011;3
+723;NYK;2012;2
+724;NYK;2013;1
+725;NYK;2014;1
+726;NYK;2015;0
+727;NYK;2016;4
+728;NYK;2017;1
+729;NYK;2018;0
+730;NYK;2019;0
+731;NYK;2020;0
+732;NYK;2021;0
+733;OKC;2009;1
+734;OKC;2010;4
+735;OKC;2011;3
+736;OKC;2012;4
+737;OKC;2013;4
+738;OKC;2014;4
+739;OKC;2015;1
+740;OKC;2016;4
+741;OKC;2017;1
+742;OKC;2018;0
+743;OKC;2019;1
+744;OKC;2020;0
+745;OKC;2021;0
+746;ORL;2006;2
+747;ORL;2007;2
+748;ORL;2008;3
+749;ORL;2009;2
+750;ORL;2010;2
+751;ORL;2011;4
+752;ORL;2012;4
+753;ORL;2013;1
+754;ORL;2014;1
+755;ORL;2015;0
+756;ORL;2016;1
+757;ORL;2017;0
+758;ORL;2018;0
+759;ORL;2019;0
+760;ORL;2020;0
+761;ORL;2021;0
+762;PHI;2006;3
+763;PHI;2007;1
+764;PHI;2008;2
+765;PHI;2009;0
+766;PHI;2010;4
+767;PHI;2011;4
+768;PHI;2012;4
+769;PHI;2013;4
+770;PHI;2014;1
+771;PHI;2015;1
+772;PHI;2016;1
+773;PHI;2017;1
+774;PHI;2018;0
+775;PHI;2019;1
+776;PHI;2020;0
+777;PHI;2021;0
+778;PHO;2006;3
+779;PHO;2007;2
+780;PHO;2008;3
+781;PHO;2009;3
+782;PHO;2010;4
+783;PHO;2011;3
+784;PHO;2012;1
+785;PHO;2013;0
+786;PHO;2014;1
+787;PHO;2015;4
+788;PHO;2016;1
+789;PHO;2017;1
+790;PHO;2018;1
+791;PHO;2019;0
+792;PHO;2020;0
+793;PHO;2021;0
+794;POR;2006;4
+795;POR;2007;1
+796;POR;2008;4
+797;POR;2009;2
+798;POR;2010;2
+799;POR;2011;4
+800;POR;2012;1
+801;POR;2013;1
+802;POR;2014;3
+803;POR;2015;3
+804;POR;2016;1
+805;POR;2017;1
+806;POR;2018;4
+807;POR;2019;0
+808;POR;2020;1
+809;POR;2021;0
+810;SAC;2006;4
+811;SAC;2007;2
+812;SAC;2008;1
+813;SAC;2009;3
+814;SAC;2010;3
+815;SAC;2011;4
+816;SAC;2012;1
+817;SAC;2013;0
+818;SAC;2014;1
+819;SAC;2015;1
+820;SAC;2016;1
+821;SAC;2017;0
+822;SAC;2018;0
+823;SAC;2019;1
+824;SAC;2020;0
+825;SAC;2021;0
+826;SAS;2006;4
+827;SAS;2007;2
+828;SAS;2008;4
+829;SAS;2009;4
+830;SAS;2010;4
+831;SAS;2011;4
+832;SAS;2012;4
+833;SAS;2013;4
+834;SAS;2014;4
+835;SAS;2015;4
+836;SAS;2016;2
+837;SAS;2017;2
+838;SAS;2018;0
+839;SAS;2019;0
+840;SAS;2020;0
+841;SAS;2021;0
+842;SEA;2006;3
+843;SEA;2007;3
+844;SEA;2008;4
+845;TOR;2006;1
+846;TOR;2007;1
+847;TOR;2008;4
+848;TOR;2009;1
+849;TOR;2010;1
+850;TOR;2011;4
+851;TOR;2012;1
+852;TOR;2013;1
+853;TOR;2014;4
+854;TOR;2015;1
+855;TOR;2016;1
+856;TOR;2017;1
+857;TOR;2018;0
+858;TOR;2019;0
+859;TOR;2020;0
+860;TOR;2021;0
+861;UTA;2006;4
+862;UTA;2007;4
+863;UTA;2008;2
+864;UTA;2009;1
+865;UTA;2010;1
+866;UTA;2011;3
+867;UTA;2012;1
+868;UTA;2013;0
+869;UTA;2014;0
+870;UTA;2015;4
+871;UTA;2016;2
+872;UTA;2017;2
+873;UTA;2018;0
+874;UTA;2019;0
+875;UTA;2020;0
+876;UTA;2021;0
+877;WAS;2006;4
+878;WAS;2007;3
+879;WAS;2008;4
+880;WAS;2009;0
+881;WAS;2010;4
+882;WAS;2011;3
+883;WAS;2012;0
+884;WAS;2013;4
+885;WAS;2014;4
+886;WAS;2015;0
+887;WAS;2016;1
+888;WAS;2017;1
+889;WAS;2018;0
+890;WAS;2019;1
+891;WAS;2020;1
+892;WAS;2021;0
+893;Aaron Gordon;2015;2
+894;Aaron Gordon;2016;2
+895;Aaron Gordon;2017;3
+896;Aaron Gordon;2018;0
+897;Aaron Gordon;2019;3
+898;Aaron Gordon;2020;0
+899;Aaron Gordon;2021;0
+900;Aaron Holiday;2019;1
+901;Aaron Holiday;2020;0
+902;Aaron Holiday;2021;2
+903;Aaron Nesmith;2021;2
+904;Abdel Nader;2018;3
+905;Abdel Nader;2019;2
+906;Abdel Nader;2020;1
+907;Abdel Nader;2021;1
+908;Adam Mokoka;2020;1
+909;Adam Mokoka;2021;1
+910;Al Horford;2008;3
+911;Al Horford;2009;0
+912;Al Horford;2010;4
+913;Al Horford;2011;3
+914;Al Horford;2013;0
+915;Al Horford;2017;0
+916;Al Horford;2018;3
+917;Al Horford;2019;0
+918;Al Horford;2020;3
+919;Al Horford;2021;0
+920;Al-Farouq Aminu;2011;2
+921;Al-Farouq Aminu;2012;2
+922;Al-Farouq Aminu;2013;0
+923;Al-Farouq Aminu;2014;0
+924;Al-Farouq Aminu;2015;1
+925;Al-Farouq Aminu;2016;3
+926;Al-Farouq Aminu;2017;2
+927;Al-Farouq Aminu;2018;0
+928;Al-Farouq Aminu;2019;3
+929;Al-Farouq Aminu;2020;1
+930;Al-Farouq Aminu;2021;0
+931;Alec Burks;2012;2
+932;Alec Burks;2013;1
+933;Alec Burks;2014;1
+934;Alec Burks;2015;4
+935;Alec Burks;2016;1
+936;Alec Burks;2017;1
+937;Alec Burks;2018;1
+938;Alec Burks;2019;0
+939;Alec Burks;2020;0
+940;Alec Burks;2021;2
+941;Aleksej Pokusevski;2021;1
+942;Alen Smailagic;2020;2
+943;Alen Smailagic;2021;2
+944;Alex Caruso;2018;0
+945;Alex Caruso;2019;2
+946;Alex Caruso;2020;2
+947;Alex Caruso;2021;1
+948;Alex Len;2014;1
+949;Alex Len;2015;0
+950;Alex Len;2016;0
+951;Alex Len;2017;0
+952;Alex Len;2018;2
+953;Alex Len;2019;2
+954;Alex Len;2020;2
+955;Alex Len;2021;2
+956;Alfonzo McKinnie;2018;0
+957;Alfonzo McKinnie;2019;2
+958;Alfonzo McKinnie;2020;1
+959;Amir Coffey;2020;1
+960;Amir Coffey;2021;1
+961;Andre Drummond;2013;0
+962;Andre Drummond;2014;0
+963;Andre Drummond;2015;0
+964;Andre Drummond;2016;0
+965;Andre Drummond;2017;0
+966;Andre Drummond;2018;0
+967;Andre Drummond;2019;0
+968;Andre Drummond;2020;0
+969;Andre Drummond;2021;2
+970;Andre Iguodala;2006;1
+971;Andre Iguodala;2007;0
+972;Andre Iguodala;2008;0
+973;Andre Iguodala;2009;3
+974;Andre Iguodala;2010;4
+975;Andre Iguodala;2011;3
+976;Andre Iguodala;2012;3
+977;Andre Iguodala;2014;3
+978;Andre Iguodala;2015;1
+979;Andre Iguodala;2016;2
+980;Andre Iguodala;2017;2
+981;Andre Iguodala;2018;2
+982;Andre Iguodala;2019;1
+983;Andre Iguodala;2020;1
+984;Andre Iguodala;2021;2
+985;Andrew Wiggins;2015;0
+986;Andrew Wiggins;2016;0
+987;Andrew Wiggins;2017;0
+988;Andrew Wiggins;2019;0
+989;Andrew Wiggins;2020;2
+990;Anfernee Simons;2019;1
+991;Anfernee Simons;2020;2
+992;Anfernee Simons;2021;1
+993;Anthony Davis;2006;1
+994;Anthony Edwards;2021;0
+995;Anthony Gill;2021;1
+996;Anzejs Pasecniks;2020;1
+997;Aron Baynes;2013;1
+998;Aron Baynes;2014;1
+999;Aron Baynes;2015;2
+1000;Aron Baynes;2016;1
+1001;Aron Baynes;2017;1
+1002;Aron Baynes;2018;3
+1003;Aron Baynes;2019;2
+1004;Aron Baynes;2020;2
+1005;Aron Baynes;2021;2
+1006;Ashton Hagans;2021;1
+1007;Austin Rivers;2013;0
+1008;Austin Rivers;2014;2
+1009;Austin Rivers;2015;2
+1010;Austin Rivers;2016;0
+1011;Austin Rivers;2017;2
+1012;Austin Rivers;2018;4
+1013;Austin Rivers;2019;1
+1014;Austin Rivers;2020;2
+1015;Austin Rivers;2021;2
+1016;Avery Bradley;2011;2
+1017;Avery Bradley;2012;2
+1018;Avery Bradley;2013;4
+1019;Avery Bradley;2014;3
+1020;Avery Bradley;2015;4
+1021;Avery Bradley;2016;0
+1022;Avery Bradley;2017;4
+1023;Avery Bradley;2018;3
+1024;Avery Bradley;2019;4
+1025;Avery Bradley;2020;0
+1026;Avery Bradley;2021;1
+1027;Bam Adebayo;2018;2
+1028;Bam Adebayo;2019;2
+1029;Bam Adebayo;2020;0
+1030;Bam Adebayo;2021;2
+1031;Ben McLemore;2014;4
+1032;Ben McLemore;2015;4
+1033;Ben McLemore;2016;4
+1034;Ben McLemore;2017;2
+1035;Ben McLemore;2018;2
+1036;Ben McLemore;2019;2
+1037;Ben McLemore;2020;2
+1038;Ben McLemore;2021;2
+1039;Ben Simmons;2018;0
+1040;Ben Simmons;2019;0
+1041;Ben Simmons;2020;3
+1042;Ben Simmons;2021;0
+1043;Bismack Biyombo;2012;4
+1044;Bismack Biyombo;2013;0
+1045;Bismack Biyombo;2014;1
+1046;Bismack Biyombo;2015;2
+1047;Bismack Biyombo;2016;2
+1048;Bismack Biyombo;2017;2
+1049;Bismack Biyombo;2018;2
+1050;Bismack Biyombo;2019;2
+1051;Bismack Biyombo;2020;2
+1052;Bismack Biyombo;2021;3
+1053;Blake Griffin;2011;0
+1054;Blake Griffin;2012;2
+1055;Blake Griffin;2013;2
+1056;Blake Griffin;2015;2
+1057;Blake Griffin;2016;2
+1058;Blake Griffin;2017;2
+1059;Blake Griffin;2018;4
+1060;Blake Griffin;2019;0
+1061;Blake Griffin;2020;0
+1062;Blake Griffin;2021;2
+1063;Boban Marjanovic;2016;2
+1064;Boban Marjanovic;2017;2
+1065;Boban Marjanovic;2018;2
+1066;Boban Marjanovic;2019;2
+1067;Boban Marjanovic;2020;1
+1068;Boban Marjanovic;2021;1
+1069;Bobby Portis;2016;1
+1070;Bobby Portis;2017;2
+1071;Bobby Portis;2018;2
+1072;Bobby Portis;2019;2
+1073;Bobby Portis;2020;2
+1074;Bobby Portis;2021;1
+1075;Bogdan Bogdanovic;2018;0
+1076;Bogdan Bogdanovic;2019;2
+1077;Bogdan Bogdanovic;2020;0
+1078;Bogdan Bogdanovic;2021;0
+1079;Bojan Bogdanovic;2018;0
+1080;Bojan Bogdanovic;2019;2
+1081;Bojan Bogdanovic;2020;2
+1082;Bojan Bogdanovic;2021;2
+1083;Bol Bol;2020;1
+1084;Bol Bol;2021;1
+1085;Brad Wanamaker;2019;1
+1086;Brad Wanamaker;2020;1
+1087;Brad Wanamaker;2021;2
+1088;Bradley Beal;2013;4
+1089;Bradley Beal;2014;0
+1090;Bradley Beal;2015;0
+1091;Bradley Beal;2016;0
+1092;Bradley Beal;2017;0
+1093;Bradley Beal;2018;3
+1094;Bradley Beal;2019;0
+1095;Bradley Beal;2020;0
+1096;Bradley Beal;2021;4
+1097;Brandon Clarke;2020;1
+1098;Brandon Clarke;2021;2
+1099;Brandon Goodwin;2019;2
+1100;Brandon Goodwin;2020;1
+1101;Brandon Goodwin;2021;0
+1102;Brandon Ingram;2017;2
+1103;Brandon Ingram;2018;0
+1104;Brandon Ingram;2019;3
+1105;Brandon Ingram;2020;0
+1106;Brandon Ingram;2021;4
+1107;Brian Bowen;2006;0
+1108;Brian Bowen;2007;4
+1109;Brian Bowen;2008;4
+1110;Brian Bowen;2009;0
+1111;Brodric Thomas;2021;2
+1112;Brook Lopez;2009;0
+1113;Brook Lopez;2010;0
+1114;Brook Lopez;2011;0
+1115;Brook Lopez;2012;3
+1116;Brook Lopez;2013;0
+1117;Brook Lopez;2014;3
+1118;Brook Lopez;2015;0
+1119;Brook Lopez;2016;0
+1120;Brook Lopez;2017;3
+1121;Brook Lopez;2018;0
+1122;Brook Lopez;2019;4
+1123;Brook Lopez;2020;0
+1124;Brook Lopez;2021;0
+1125;Bruce Brown,;2019;2
+1126;Bruce Brown,;2020;0
+1127;Bruce Brown,;2021;2
+1128;Bruno Fernando;2020;2
+1129;Bruno Fernando;2021;1
+1130;Bryn Forbes;2017;2
+1131;Bryn Forbes;2018;2
+1132;Bryn Forbes;2019;4
+1133;Bryn Forbes;2020;3
+1134;Bryn Forbes;2021;2
+1135;Buddy Hield;2017;3
+1136;Buddy Hield;2018;2
+1137;Buddy Hield;2019;4
+1138;Buddy Hield;2020;2
+1139;Buddy Hield;2021;4
+1140;Caleb Martin;2009;4
+1141;Caleb Martin;2010;1
+1142;Caleb Martin;2011;2
+1143;Caleb Martin;2012;2
+1144;Caleb Martin;2013;2
+1145;Caleb Martin;2014;2
+1146;Caleb Martin;2015;2
+1147;Cam Reddish;2020;0
+1148;Cam Reddish;2021;4
+1149;Cameron Johnson;2012;2
+1150;Cameron Payne;2016;2
+1151;Cameron Payne;2017;1
+1152;Cameron Payne;2018;2
+1153;Cameron Payne;2019;4
+1154;Cameron Payne;2020;1
+1155;Cameron Payne;2021;1
+1156;Caris LeVert;2017;0
+1157;Caris LeVert;2018;2
+1158;Caris LeVert;2019;0
+1159;Caris LeVert;2020;0
+1160;Caris LeVert;2021;0
+1161;Carmelo Anthony;2006;3
+1162;Carmelo Anthony;2007;3
+1163;Carmelo Anthony;2008;4
+1164;Carmelo Anthony;2009;3
+1165;Carmelo Anthony;2010;0
+1166;Carmelo Anthony;2011;0
+1167;Carmelo Anthony;2012;3
+1168;Carmelo Anthony;2013;0
+1169;Carmelo Anthony;2014;0
+1170;Carmelo Anthony;2015;3
+1171;Carmelo Anthony;2016;0
+1172;Carmelo Anthony;2017;0
+1173;Carmelo Anthony;2018;0
+1174;Carmelo Anthony;2019;1
+1175;Carmelo Anthony;2020;0
+1176;Carmelo Anthony;2021;1
+1177;Carsen Edwards;2020;2
+1178;Carsen Edwards;2021;3
+1179;Cassius Stanley;2021;2
+1180;Cassius Winston;2021;1
+1181;Chandler Hutchison;2019;1
+1182;Chandler Hutchison;2020;1
+1183;Chandler Hutchison;2021;2
+1184;Chimezie Metu;2019;2
+1185;Chimezie Metu;2020;1
+1186;Chimezie Metu;2021;2
+1187;Chris Boucher;2019;1
+1188;Chris Boucher;2020;2
+1189;Chris Boucher;2021;1
+1190;Chris Chiozza;2020;2
+1191;Chris Chiozza;2021;3
+1192;Chris Clemons;2020;2
+1193;Chris Paul;2007;0
+1194;Chris Paul;2008;4
+1195;Chris Paul;2009;3
+1196;Chris Paul;2010;3
+1197;Chris Paul;2011;3
+1198;Chris Paul;2012;0
+1199;Chris Paul;2013;3
+1200;Chris Paul;2014;3
+1201;Chris Paul;2015;3
+1202;Chris Paul;2016;3
+1203;Chris Paul;2017;4
+1204;Chris Paul;2018;0
+1205;Chris Paul;2019;0
+1206;Chris Paul;2021;0
+1207;Chris Silva;2020;2
+1208;Chris Silva;2021;1
+1209;Christian Wood;2016;2
+1210;Christian Wood;2017;1
+1211;Christian Wood;2019;2
+1212;Christian Wood;2020;2
+1213;Christian Wood;2021;0
+1214;Chuma Okeke;2021;1
+1215;Coby White;2020;2
+1216;Coby White;2021;0
+1217;Cody Martin;2020;2
+1218;Cody Martin;2021;2
+1219;Cody Zeller;2014;1
+1220;Cody Zeller;2015;0
+1221;Cody Zeller;2016;1
+1222;Cody Zeller;2017;3
+1223;Cody Zeller;2018;1
+1224;Cody Zeller;2019;0
+1225;Cody Zeller;2020;0
+1226;Cody Zeller;2021;0
+1227;Cole Anthony;2021;0
+1228;Collin Sexton;2019;0
+1229;Collin Sexton;2020;3
+1230;Collin Sexton;2021;0
+1231;Cory Joseph;2012;1
+1232;Cory Joseph;2013;1
+1233;Cory Joseph;2014;3
+1234;Cory Joseph;2015;0
+1235;Cory Joseph;2016;2
+1236;Cory Joseph;2017;0
+1237;Cory Joseph;2018;2
+1238;Cory Joseph;2019;2
+1239;Cory Joseph;2020;2
+1240;Cory Joseph;2021;2
+1241;Cristiano Felicio;2016;2
+1242;Cristiano Felicio;2017;1
+1243;Cristiano Felicio;2018;2
+1244;Cristiano Felicio;2019;2
+1245;Cristiano Felicio;2020;1
+1246;Cristiano Felicio;2021;1
+1247;DaQuan Jeffries;2020;2
+1248;DaQuan Jeffries;2021;2
+1249;Damian Jones;2006;1
+1250;Damian Jones;2007;2
+1251;Damian Jones;2008;1
+1252;Damian Jones;2009;1
+1253;Damian Lillard;2013;4
+1254;Damian Lillard;2014;4
+1255;Damian Lillard;2015;4
+1256;Damian Lillard;2016;4
+1257;Damian Lillard;2017;4
+1258;Damian Lillard;2018;4
+1259;Damian Lillard;2019;4
+1260;Damian Lillard;2020;4
+1261;Damian Lillard;2021;4
+1262;Damyean Dotson;2018;1
+1263;Damyean Dotson;2019;2
+1264;Damyean Dotson;2020;2
+1265;Damyean Dotson;2021;1
+1266;Daniel Gafford;2020;2
+1267;Daniel Gafford;2021;2
+1268;Daniel Oturu;2021;2
+1269;Daniel Theis;2018;1
+1270;Daniel Theis;2019;1
+1271;Daniel Theis;2020;0
+1272;Daniel Theis;2021;2
+1273;Danilo Gallinari;2009;2
+1274;Danilo Gallinari;2010;4
+1275;Danilo Gallinari;2011;4
+1276;Danilo Gallinari;2012;3
+1277;Danilo Gallinari;2013;4
+1278;Danilo Gallinari;2015;0
+1279;Danilo Gallinari;2016;3
+1280;Danilo Gallinari;2017;0
+1281;Danilo Gallinari;2018;3
+1282;Danilo Gallinari;2019;0
+1283;Danilo Gallinari;2020;3
+1284;Danilo Gallinari;2021;1
+1285;Dante Exum;2015;2
+1286;Dante Exum;2017;3
+1287;Dante Exum;2019;1
+1288;Dante Exum;2020;2
+1289;Dante Exum;2021;3
+1290;Danuel House;2018;1
+1291;Danuel House;2019;2
+1292;Danuel House;2020;0
+1293;Danuel House;2021;2
+1294;Dario Saric;2017;0
+1295;Dario Saric;2018;3
+1296;Dario Saric;2019;0
+1297;Dario Saric;2020;1
+1298;Dario Saric;2021;2
+1299;Darius Bazley;2020;1
+1300;Darius Bazley;2021;0
+1301;Darius Garland;2020;0
+1302;Darius Garland;2021;3
+1303;Darius Miller;2013;1
+1304;Darius Miller;2014;1
+1305;Darius Miller;2015;1
+1306;Darius Miller;2018;1
+1307;Darius Miller;2019;3
+1308;Darius Miller;2021;1
+1309;David Nwaba;2017;0
+1310;David Nwaba;2018;0
+1311;David Nwaba;2019;0
+1312;David Nwaba;2020;0
+1313;David Nwaba;2021;0
+1314;Davis Bertans;2017;2
+1315;Davis Bertans;2018;3
+1316;Davis Bertans;2019;2
+1317;Davis Bertans;2020;2
+1318;Davis Bertans;2021;2
+1319;De'Aaron Fox;2018;0
+1320;De'Aaron Fox;2019;0
+1321;De'Aaron Fox;2020;0
+1322;De'Aaron Fox;2021;4
+1323;De'Andre Hunter;2020;3
+1324;De'Anthony Melton;2019;2
+1325;De'Anthony Melton;2020;2
+1326;De'Anthony Melton;2021;0
+1327;DeAndre Jordan;2009;4
+1328;DeAndre Jordan;2010;2
+1329;DeAndre Jordan;2011;0
+1330;DeAndre Jordan;2012;0
+1331;DeAndre Jordan;2013;0
+1332;DeAndre Jordan;2014;0
+1333;DeAndre Jordan;2015;0
+1334;DeAndre Jordan;2016;0
+1335;DeAndre Jordan;2017;0
+1336;DeAndre Jordan;2018;0
+1337;DeAndre Jordan;2019;0
+1338;DeAndre Jordan;2020;2
+1339;DeAndre Jordan;2021;0
+1340;DeAndre' Bembry;2017;4
+1341;DeAndre' Bembry;2018;2
+1342;DeAndre' Bembry;2019;4
+1343;DeAndre' Bembry;2020;1
+1344;DeAndre' Bembry;2021;1
+1345;DeMar DeRozan;2011;0
+1346;DeMar DeRozan;2012;2
+1347;DeMar DeRozan;2013;4
+1348;DeMar DeRozan;2014;3
+1349;DeMar DeRozan;2015;2
+1350;DeMar DeRozan;2016;3
+1351;DeMar DeRozan;2017;4
+1352;DeMar DeRozan;2018;3
+1353;DeMar DeRozan;2019;3
+1354;DeMar DeRozan;2020;3
+1355;DeMar DeRozan;2021;4
+1356;DeMarcus Cousins;2011;0
+1357;DeMarcus Cousins;2012;1
+1358;DeMarcus Cousins;2013;0
+1359;DeMarcus Cousins;2014;0
+1360;DeMarcus Cousins;2015;2
+1361;DeMarcus Cousins;2016;2
+1362;DeMarcus Cousins;2017;0
+1363;DeMarcus Cousins;2018;3
+1364;DeMarcus Cousins;2019;0
+1365;DeMarcus Cousins;2021;1
+1366;Dean Wade;2020;1
+1367;Dean Wade;2021;2
+1368;Deandre Ayton;2019;0
+1369;Deandre Ayton;2020;0
+1370;Deandre Ayton;2021;0
+1371;Deividas Sirvydis;2021;1
+1372;Dejounte Murray;2017;2
+1373;Dejounte Murray;2018;0
+1374;Dejounte Murray;2020;4
+1375;Dejounte Murray;2021;4
+1376;Delon Wright;2016;1
+1377;Delon Wright;2017;1
+1378;Delon Wright;2018;0
+1379;Delon Wright;2019;2
+1380;Delon Wright;2020;2
+1381;Delon Wright;2021;3
+1382;Deni Avdija;2021;0
+1383;Dennis Schroder;2014;1
+1384;Dennis Schroder;2015;0
+1385;Dennis Schroder;2016;2
+1386;Dennis Schroder;2017;3
+1387;Dennis Schroder;2018;3
+1388;Dennis Schroder;2019;2
+1389;Dennis Schroder;2020;2
+1390;Dennis Schroder;2021;3
+1391;Denzel Valentine;2017;1
+1392;Denzel Valentine;2018;2
+1393;Denzel Valentine;2020;2
+1394;Denzel Valentine;2021;2
+1395;Derrick Favors;2011;3
+1396;Derrick Favors;2012;1
+1397;Derrick Favors;2013;4
+1398;Derrick Favors;2014;3
+1399;Derrick Favors;2015;3
+1400;Derrick Favors;2016;3
+1401;Derrick Favors;2017;0
+1402;Derrick Favors;2018;4
+1403;Derrick Favors;2019;3
+1404;Derrick Favors;2020;0
+1405;Derrick Favors;2021;2
+1406;Derrick Jones;2013;2
+1407;Derrick Rose;2009;0
+1408;Derrick Rose;2010;3
+1409;Derrick Rose;2011;3
+1410;Derrick Rose;2012;3
+1411;Derrick Rose;2014;4
+1412;Derrick Rose;2015;4
+1413;Derrick Rose;2016;4
+1414;Derrick Rose;2017;3
+1415;Derrick Rose;2018;2
+1416;Derrick Rose;2019;2
+1417;Derrick Rose;2020;2
+1418;Derrick Rose;2021;1
+1419;Derrick White;2018;1
+1420;Derrick White;2019;3
+1421;Derrick White;2020;0
+1422;Derrick White;2021;4
+1423;Desmond Bane;2021;2
+1424;Devin Booker;2016;0
+1425;Devin Booker;2017;4
+1426;Devin Booker;2018;4
+1427;Devin Booker;2019;4
+1428;Devin Booker;2020;0
+1429;Devin Vassell;2021;2
+1430;Devon Dotson;2021;1
+1431;Devontae Cacok;2021;2
+1432;Devonte' Graham;2019;2
+1433;Devonte' Graham;2020;3
+1434;Devonte' Graham;2021;0
+1435;Dillon Brooks;2018;0
+1436;Dillon Brooks;2019;2
+1437;Dillon Brooks;2020;0
+1438;Dillon Brooks;2021;0
+1439;Domantas Sabonis;2017;2
+1440;Domantas Sabonis;2018;2
+1441;Domantas Sabonis;2019;1
+1442;Domantas Sabonis;2020;0
+1443;Domantas Sabonis;2021;0
+1444;Donovan Mitchell;2018;3
+1445;Donovan Mitchell;2019;0
+1446;Donovan Mitchell;2020;0
+1447;Donovan Mitchell;2021;3
+1448;Donte DiVincenzo;2019;2
+1449;Donte DiVincenzo;2020;2
+1450;Donte DiVincenzo;2021;4
+1451;Dorian Finney-Smith;2017;2
+1452;Dorian Finney-Smith;2018;2
+1453;Dorian Finney-Smith;2019;1
+1454;Dorian Finney-Smith;2020;3
+1455;Dorian Finney-Smith;2021;3
+1456;Doug McDermott;2015;2
+1457;Doug McDermott;2016;2
+1458;Doug McDermott;2017;2
+1459;Doug McDermott;2018;2
+1460;Doug McDermott;2019;1
+1461;Doug McDermott;2020;2
+1462;Doug McDermott;2021;2
+1463;Draymond Green;2013;2
+1464;Draymond Green;2014;0
+1465;Draymond Green;2015;0
+1466;Draymond Green;2016;0
+1467;Draymond Green;2017;0
+1468;Draymond Green;2018;0
+1469;Draymond Green;2019;0
+1470;Draymond Green;2020;0
+1471;Draymond Green;2021;3
+1472;Drew Eubanks;2019;2
+1473;Drew Eubanks;2020;0
+1474;Drew Eubanks;2021;2
+1475;Duncan Robinson;2019;1
+1476;Duncan Robinson;2020;0
+1477;Duncan Robinson;2021;0
+1478;Dwayne Bacon;2018;2
+1479;Dwayne Bacon;2019;2
+1480;Dwayne Bacon;2020;2
+1481;Dwayne Bacon;2021;0
+1482;Dwight Howard;2009;2
+1483;Dwight Howard;2010;3
+1484;Dwight Howard;2011;3
+1485;Dwight Howard;2012;1
+1486;Dwight Howard;2013;3
+1487;Dwight Howard;2014;3
+1488;Dwight Howard;2015;2
+1489;Dwight Howard;2016;3
+1490;Dwight Howard;2017;3
+1491;Dwight Howard;2018;3
+1492;Dwight Howard;2019;2
+1493;Dwight Howard;2020;1
+1494;Dwight Howard;2021;1
+1495;Dwight Powell;2015;1
+1496;Dwight Powell;2016;1
+1497;Dwight Powell;2017;1
+1498;Dwight Powell;2018;2
+1499;Dwight Powell;2019;2
+1500;Dwight Powell;2020;0
+1501;Dwight Powell;2021;2
+1502;Dylan Windler;2021;1
+1503;Ed Davis;2011;3
+1504;Ed Davis;2012;1
+1505;Ed Davis;2013;2
+1506;Ed Davis;2014;2
+1507;Ed Davis;2015;1
+1508;Ed Davis;2016;1
+1509;Ed Davis;2017;1
+1510;Ed Davis;2018;1
+1511;Ed Davis;2019;1
+1512;Ed Davis;2020;1
+1513;Ed Davis;2021;1
+1514;Edmond Sumner;2019;2
+1515;Edmond Sumner;2020;2
+1516;Edmond Sumner;2021;0
+1517;Elfrid Payton;2015;2
+1518;Elfrid Payton;2016;0
+1519;Elfrid Payton;2017;4
+1520;Elfrid Payton;2018;4
+1521;Elfrid Payton;2019;3
+1522;Elfrid Payton;2020;0
+1523;Elfrid Payton;2021;3
+1524;Enes Kanter;2012;2
+1525;Enes Kanter;2013;1
+1526;Enes Kanter;2014;1
+1527;Enes Kanter;2015;0
+1528;Enes Kanter;2016;2
+1529;Enes Kanter;2017;2
+1530;Enes Kanter;2018;0
+1531;Enes Kanter;2019;0
+1532;Enes Kanter;2020;2
+1533;Enes Kanter;2021;1
+1534;Eric Bledsoe;2011;1
+1535;Eric Bledsoe;2012;1
+1536;Eric Bledsoe;2013;3
+1537;Eric Bledsoe;2014;4
+1538;Eric Bledsoe;2015;4
+1539;Eric Bledsoe;2016;3
+1540;Eric Bledsoe;2017;4
+1541;Eric Bledsoe;2018;0
+1542;Eric Bledsoe;2019;0
+1543;Eric Bledsoe;2020;3
+1544;Eric Bledsoe;2021;4
+1545;Eric Gordon;2009;3
+1546;Eric Gordon;2010;0
+1547;Eric Gordon;2011;4
+1548;Eric Gordon;2012;4
+1549;Eric Gordon;2013;4
+1550;Eric Gordon;2014;4
+1551;Eric Gordon;2015;4
+1552;Eric Gordon;2016;0
+1553;Eric Gordon;2017;0
+1554;Eric Gordon;2018;0
+1555;Eric Gordon;2019;0
+1556;Eric Gordon;2020;0
+1557;Eric Gordon;2021;2
+1558;Eric Paschall;2020;2
+1559;Eric Paschall;2021;2
+1560;Evan Fournier;2013;2
+1561;Evan Fournier;2014;2
+1562;Evan Fournier;2015;1
+1563;Evan Fournier;2016;0
+1564;Evan Fournier;2017;3
+1565;Evan Fournier;2018;4
+1566;Evan Fournier;2019;0
+1567;Evan Fournier;2020;0
+1568;Evan Fournier;2021;0
+1569;Facundo Campazzo;2021;2
+1570;Frank Jackson;2019;2
+1571;Frank Jackson;2020;0
+1572;Frank Jackson;2021;2
+1573;Frank Kaminsky;2016;2
+1574;Frank Kaminsky;2017;2
+1575;Frank Kaminsky;2018;1
+1576;Frank Kaminsky;2019;2
+1577;Frank Kaminsky;2020;2
+1578;Frank Kaminsky;2021;2
+1579;Fred VanVleet;2017;2
+1580;Fred VanVleet;2018;2
+1581;Fred VanVleet;2019;3
+1582;Fred VanVleet;2020;3
+1583;Fred VanVleet;2021;3
+1584;Furkan Korkmaz;2018;0
+1585;Furkan Korkmaz;2019;2
+1586;Furkan Korkmaz;2020;2
+1587;Furkan Korkmaz;2021;0
+1588;Gabe Vincent;2020;1
+1589;Gabe Vincent;2021;2
+1590;Garrett Temple;2010;0
+1591;Garrett Temple;2011;1
+1592;Garrett Temple;2013;4
+1593;Garrett Temple;2014;2
+1594;Garrett Temple;2015;3
+1595;Garrett Temple;2016;4
+1596;Garrett Temple;2017;3
+1597;Garrett Temple;2018;3
+1598;Garrett Temple;2019;3
+1599;Garrett Temple;2020;0
+1600;Garrett Temple;2021;0
+1601;Garrison Mathews;2020;2
+1602;Garrison Mathews;2021;0
+1603;Gary Clark;2019;2
+1604;Gary Clark;2020;2
+1605;Gary Clark;2021;2
+1606;Gary Harris;2015;1
+1607;Gary Harris;2016;4
+1608;Gary Harris;2017;4
+1609;Gary Harris;2019;1
+1610;Gary Harris;2020;0
+1611;Gary Harris;2021;0
+1612;George Hill;2009;1
+1613;George Hill;2010;0
+1614;George Hill;2011;1
+1615;George Hill;2012;3
+1616;George Hill;2013;4
+1617;George Hill;2014;4
+1618;George Hill;2015;4
+1619;George Hill;2016;4
+1620;George Hill;2017;3
+1621;George Hill;2018;3
+1622;George Hill;2019;0
+1623;George Hill;2020;2
+1624;George Hill;2021;2
+1625;Georges Niang;2017;2
+1626;Georges Niang;2018;0
+1627;Georges Niang;2019;1
+1628;Georges Niang;2020;2
+1629;Georges Niang;2021;2
+1630;Giannis Antetokounmpo;2014;0
+1631;Giannis Antetokounmpo;2015;0
+1632;Giannis Antetokounmpo;2016;3
+1633;Giannis Antetokounmpo;2017;3
+1634;Giannis Antetokounmpo;2018;0
+1635;Giannis Antetokounmpo;2019;0
+1636;Giannis Antetokounmpo;2020;0
+1637;Giannis Antetokounmpo;2021;4
+1638;Goga Bitadze;2020;1
+1639;Goga Bitadze;2021;2
+1640;Goran Dragic;2009;2
+1641;Goran Dragic;2010;0
+1642;Goran Dragic;2011;2
+1643;Goran Dragic;2012;4
+1644;Goran Dragic;2013;4
+1645;Goran Dragic;2014;4
+1646;Goran Dragic;2015;4
+1647;Goran Dragic;2016;4
+1648;Goran Dragic;2017;0
+1649;Goran Dragic;2019;1
+1650;Goran Dragic;2020;2
+1651;Goran Dragic;2021;2
+1652;Gordon Hayward;2011;1
+1653;Gordon Hayward;2012;0
+1654;Gordon Hayward;2013;2
+1655;Gordon Hayward;2014;3
+1656;Gordon Hayward;2015;4
+1657;Gordon Hayward;2016;4
+1658;Gordon Hayward;2017;3
+1659;Gordon Hayward;2019;3
+1660;Gordon Hayward;2020;3
+1661;Gordon Hayward;2021;0
+1662;Gorgui Dieng;2014;1
+1663;Gorgui Dieng;2015;0
+1664;Gorgui Dieng;2016;0
+1665;Gorgui Dieng;2017;4
+1666;Gorgui Dieng;2018;1
+1667;Gorgui Dieng;2019;1
+1668;Gorgui Dieng;2020;2
+1669;Gorgui Dieng;2021;1
+1670;Grant Riller;2021;1
+1671;Grant Williams;2020;1
+1672;Grant Williams;2021;2
+1673;Grayson Allen;2019;1
+1674;Grayson Allen;2020;2
+1675;Grayson Allen;2021;0
+1676;Hamidou Diallo;2019;1
+1677;Hamidou Diallo;2020;2
+1678;Hamidou Diallo;2021;2
+1679;Harry Giles;2019;1
+1680;Harry Giles;2020;2
+1681;Harry Giles;2021;2
+1682;Hassan Whiteside;2015;2
+1683;Hassan Whiteside;2016;0
+1684;Hassan Whiteside;2017;3
+1685;Hassan Whiteside;2018;3
+1686;Hassan Whiteside;2019;3
+1687;Hassan Whiteside;2020;2
+1688;Hassan Whiteside;2021;2
+1689;Ignas Brazdeikis;2020;2
+1690;Ignas Brazdeikis;2021;1
+1691;Immanuel Quickley;2021;2
+1692;Isaac Bonga;2019;1
+1693;Isaac Bonga;2020;0
+1694;Isaac Bonga;2021;2
+1695;Isaac Okoro;2021;0
+1696;Isaiah Hartenstein;2019;2
+1697;Isaiah Hartenstein;2020;1
+1698;Isaiah Hartenstein;2021;2
+1699;Isaiah Joe;2021;0
+1700;Isaiah Roby;2020;0
+1701;Isaiah Roby;2021;2
+1702;Isaiah Stewart;2021;2
+1703;Ish Smith;2011;0
+1704;Ish Smith;2013;1
+1705;Ish Smith;2014;1
+1706;Ish Smith;2015;0
+1707;Ish Smith;2016;3
+1708;Ish Smith;2017;2
+1709;Ish Smith;2018;2
+1710;Ish Smith;2019;2
+1711;Ish Smith;2020;0
+1712;Ish Smith;2021;2
+1713;Ivica Zubac;2017;0
+1714;Ivica Zubac;2018;1
+1715;Ivica Zubac;2019;0
+1716;Ivica Zubac;2020;0
+1717;Ivica Zubac;2021;2
+1718;Ja Morant;2020;4
+1719;Ja Morant;2021;4
+1720;JaMychal Green;2015;1
+1721;JaMychal Green;2016;1
+1722;JaMychal Green;2017;2
+1723;JaMychal Green;2018;2
+1724;JaMychal Green;2019;1
+1725;JaMychal Green;2020;1
+1726;JaMychal Green;2021;1
+1727;JaVale McGee;2009;2
+1728;JaVale McGee;2010;4
+1729;JaVale McGee;2011;0
+1730;JaVale McGee;2012;0
+1731;JaVale McGee;2013;1
+1732;JaVale McGee;2014;4
+1733;JaVale McGee;2015;1
+1734;JaVale McGee;2016;2
+1735;JaVale McGee;2017;2
+1736;JaVale McGee;2018;2
+1737;JaVale McGee;2019;0
+1738;JaVale McGee;2020;2
+1739;JaVale McGee;2021;1
+1740;Jabari Parker;2015;4
+1741;Jabari Parker;2016;0
+1742;Jabari Parker;2017;0
+1743;Jabari Parker;2018;2
+1744;Jabari Parker;2019;2
+1745;Jabari Parker;2020;0
+1746;Jabari Parker;2021;2
+1747;Jaden McDaniels;2020;2
+1748;Jaden McDaniels;2021;2
+1749;Jae Crowder;2013;0
+1750;Jae Crowder;2014;2
+1751;Jae Crowder;2015;2
+1752;Jae Crowder;2016;0
+1753;Jae Crowder;2017;0
+1754;Jae Crowder;2018;0
+1755;Jae Crowder;2019;1
+1756;Jae Crowder;2020;0
+1757;Jae Crowder;2021;2
+1758;Jae'sean Tate;2021;0
+1759;Jahlil Okafor;2016;3
+1760;Jahlil Okafor;2017;0
+1761;Jahlil Okafor;2018;2
+1762;Jahlil Okafor;2019;0
+1763;Jahlil Okafor;2020;2
+1764;Jahlil Okafor;2021;2
+1765;Jahmi'us Ramsey;2021;2
+1766;Jake Layman;2017;2
+1767;Jake Layman;2018;0
+1768;Jake Layman;2019;2
+1769;Jake Layman;2020;2
+1770;Jake Layman;2021;1
+1771;Jakob Poeltl;2017;2
+1772;Jakob Poeltl;2018;2
+1773;Jakob Poeltl;2019;2
+1774;Jakob Poeltl;2020;2
+1775;Jakob Poeltl;2021;2
+1776;Jalen Brunson;2019;0
+1777;Jalen Brunson;2020;2
+1778;Jalen Brunson;2021;2
+1779;Jalen Harris;2021;2
+1780;Jalen Lecque;2020;2
+1781;Jalen Lecque;2021;1
+1782;Jalen McDaniels;2020;2
+1783;Jalen McDaniels;2021;0
+1784;Jamal Murray;2017;2
+1785;Jamal Murray;2018;3
+1786;Jamal Murray;2019;3
+1787;Jamal Murray;2020;3
+1788;Jamal Murray;2021;0
+1789;James Ennis;2015;1
+1790;James Ennis;2016;3
+1791;James Ennis;2017;3
+1792;James Ennis;2018;2
+1793;James Ennis;2019;3
+1794;James Ennis;2020;2
+1795;James Ennis;2021;4
+1796;James Harden;2010;1
+1797;James Harden;2011;1
+1798;James Harden;2012;2
+1799;James Harden;2013;0
+1800;James Harden;2014;4
+1801;James Harden;2015;0
+1802;James Harden;2016;0
+1803;James Harden;2017;4
+1804;James Harden;2018;3
+1805;James Harden;2019;4
+1806;James Harden;2020;0
+1807;James Harden;2021;0
+1808;James Johnson;2010;0
+1809;James Johnson;2011;4
+1810;James Johnson;2012;3
+1811;James Johnson;2013;2
+1812;James Johnson;2014;0
+1813;James Johnson;2015;4
+1814;James Johnson;2016;3
+1815;James Johnson;2017;2
+1816;James Johnson;2018;3
+1817;James Johnson;2019;3
+1818;James Johnson;2020;2
+1819;James Johnson;2021;2
+1820;James Wiseman;2021;2
+1821;Jared Dudley;2008;2
+1822;Jared Dudley;2010;0
+1823;Jared Dudley;2011;0
+1824;Jared Dudley;2012;3
+1825;Jared Dudley;2013;2
+1826;Jared Dudley;2014;2
+1827;Jared Dudley;2015;2
+1828;Jared Dudley;2016;2
+1829;Jared Dudley;2017;1
+1830;Jared Dudley;2018;1
+1831;Jared Dudley;2019;0
+1832;Jared Dudley;2020;1
+1833;Jared Dudley;2021;1
+1834;Jared Harper;2021;1
+1835;Jarred Vanderbilt;2019;1
+1836;Jarred Vanderbilt;2020;1
+1837;Jarred Vanderbilt;2021;2
+1838;Jarrell Brantley;2020;2
+1839;Jarrett Allen;2018;0
+1840;Jarrett Allen;2019;4
+1841;Jarrett Allen;2020;0
+1842;Jarrett Allen;2021;2
+1843;Jarrett Culver;2020;0
+1844;Jarrett Culver;2021;2
+1845;Javonte Green;2015;1
+1846;Javonte Green;2016;0
+1847;Javonte Green;2017;3
+1848;Javonte Green;2018;0
+1849;Javonte Green;2019;2
+1850;Javonte Green;2020;2
+1851;Javonte Green;2021;2
+1852;Jaxson Hayes;2006;1
+1853;Jaxson Hayes;2007;0
+1854;Jaxson Hayes;2008;1
+1855;Jaxson Hayes;2009;1
+1856;Jaxson Hayes;2010;1
+1857;Jaylen Adams;2019;0
+1858;Jaylen Adams;2021;1
+1859;Jaylen Brown;2015;0
+1860;Jaylen Nowell;2020;1
+1861;Jaylen Nowell;2021;2
+1862;Jayson Tatum;2018;0
+1863;Jayson Tatum;2019;0
+1864;Jayson Tatum;2020;0
+1865;Jayson Tatum;2021;0
+1866;Jeff Teague;2010;2
+1867;Jeff Teague;2011;1
+1868;Jeff Teague;2012;4
+1869;Jeff Teague;2013;3
+1870;Jeff Teague;2014;4
+1871;Jeff Teague;2015;3
+1872;Jeff Teague;2016;3
+1873;Jeff Teague;2017;3
+1874;Jeff Teague;2018;0
+1875;Jeff Teague;2019;3
+1876;Jeff Teague;2020;2
+1877;Jeff Teague;2021;2
+1878;Jerami Grant;2015;2
+1879;Jerami Grant;2016;0
+1880;Jerami Grant;2017;2
+1881;Jerami Grant;2018;4
+1882;Jerami Grant;2019;0
+1883;Jerami Grant;2020;0
+1884;Jerami Grant;2021;0
+1885;Jeremy Lamb;2013;2
+1886;Jeremy Lamb;2014;2
+1887;Jeremy Lamb;2015;2
+1888;Jeremy Lamb;2016;2
+1889;Jeremy Lamb;2017;2
+1890;Jeremy Lamb;2018;3
+1891;Jeremy Lamb;2019;3
+1892;Jeremy Lamb;2020;4
+1893;Jeremy Lamb;2021;2
+1894;Jerome Robinson;2019;2
+1895;Jerome Robinson;2020;2
+1896;Jerome Robinson;2021;0
+1897;Jevon Carter;2019;2
+1898;Jevon Carter;2020;2
+1899;Jevon Carter;2021;2
+1900;Jimmy Butler;2013;1
+1901;Jimmy Butler;2014;4
+1902;Jimmy Butler;2015;3
+1903;Jimmy Butler;2016;4
+1904;Jimmy Butler;2017;3
+1905;Jimmy Butler;2018;4
+1906;Jimmy Butler;2019;4
+1907;Jimmy Butler;2020;0
+1908;Jimmy Butler;2021;3
+1909;Joe Harris;2015;2
+1910;Joe Harris;2017;2
+1911;Joe Harris;2018;2
+1912;Joe Harris;2019;4
+1913;Joe Harris;2020;4
+1914;Joe Harris;2021;3
+1915;Joe Ingles;2015;2
+1916;Joe Ingles;2016;2
+1917;Joe Ingles;2017;2
+1918;Joe Ingles;2018;0
+1919;Joe Ingles;2019;0
+1920;Joe Ingles;2020;3
+1921;Joe Ingles;2021;2
+1922;Joel Embiid;2017;4
+1923;Joel Embiid;2018;3
+1924;Joel Embiid;2019;0
+1925;Joel Embiid;2020;2
+1926;Joel Embiid;2021;0
+1927;John Collins;2018;2
+1928;John Collins;2019;4
+1929;John Collins;2020;4
+1930;John Collins;2021;0
+1931;John Konchar;2020;2
+1932;John Konchar;2021;2
+1933;John Wall;2011;4
+1934;John Wall;2012;3
+1935;John Wall;2013;0
+1936;John Wall;2014;4
+1937;John Wall;2015;0
+1938;John Wall;2016;4
+1939;John Wall;2017;4
+1940;John Wall;2018;3
+1941;John Wall;2019;4
+1942;John Wall;2021;3
+1943;Jonas Valanciunas;2013;0
+1944;Jonas Valanciunas;2014;3
+1945;Jonas Valanciunas;2015;0
+1946;Jonas Valanciunas;2016;0
+1947;Jonas Valanciunas;2017;0
+1948;Jonas Valanciunas;2018;2
+1949;Jonas Valanciunas;2019;2
+1950;Jonas Valanciunas;2020;2
+1951;Jonas Valanciunas;2021;0
+1952;Jonathan Isaac;2018;1
+1953;Jonathan Isaac;2019;3
+1954;Jonathan Isaac;2020;3
+1955;Jontay Porter;2021;1
+1956;Jordan Bone;2020;2
+1957;Jordan Bone;2021;1
+1958;Jordan Clarkson;2015;3
+1959;Jordan Clarkson;2016;3
+1960;Jordan Clarkson;2017;0
+1961;Jordan Clarkson;2018;2
+1962;Jordan Clarkson;2019;2
+1963;Jordan Clarkson;2020;2
+1964;Jordan Clarkson;2021;1
+1965;Jordan McLaughlin;2020;0
+1966;Jordan McLaughlin;2021;2
+1967;Jordan Nwora;2021;2
+1968;Jordan Poole;2020;2
+1969;Jordan Poole;2021;2
+1970;Josh Hall;2021;2
+1971;Josh Hart;2018;0
+1972;Josh Hart;2019;0
+1973;Josh Hart;2020;0
+1974;Josh Hart;2021;1
+1975;Josh Okogie;2019;0
+1976;Josh Okogie;2020;2
+1977;Josh Okogie;2021;0
+1978;Josh Richardson;2016;1
+1979;Josh Richardson;2017;4
+1980;Josh Richardson;2018;3
+1981;Josh Richardson;2019;4
+1982;Josh Richardson;2020;0
+1983;Josh Richardson;2021;3
+1984;Jrue Holiday;2010;3
+1985;Jrue Holiday;2011;4
+1986;Jrue Holiday;2012;3
+1987;Jrue Holiday;2013;3
+1988;Jrue Holiday;2014;4
+1989;Jrue Holiday;2015;4
+1990;Jrue Holiday;2016;0
+1991;Jrue Holiday;2017;4
+1992;Jrue Holiday;2018;4
+1993;Jrue Holiday;2019;4
+1994;Jrue Holiday;2020;3
+1995;Jrue Holiday;2021;3
+1996;Juan Toscano-Anderson;2020;3
+1997;Juan Toscano-Anderson;2021;2
+1998;Juancho Hernangomez;2017;2
+1999;Juancho Hernangomez;2018;2
+2000;Juancho Hernangomez;2019;2
+2001;Juancho Hernangomez;2020;2
+2002;Juancho Hernangomez;2021;2
+2003;Julius Randle;2016;2
+2004;Julius Randle;2017;0
+2005;Julius Randle;2018;2
+2006;Julius Randle;2019;2
+2007;Julius Randle;2020;0
+2008;Julius Randle;2021;0
+2009;Justin Holiday;2013;2
+2010;Justin Holiday;2015;0
+2011;Justin Holiday;2016;1
+2012;Justin Holiday;2017;1
+2013;Justin Holiday;2018;4
+2014;Justin Holiday;2019;0
+2015;Justin Holiday;2020;1
+2016;Justin Holiday;2021;0
+2017;Justin Jackson;2018;0
+2018;Justin Jackson;2019;2
+2019;Justin Jackson;2020;1
+2020;Justin Jackson;2021;2
+2021;Justin James;2020;2
+2022;Justin James;2021;2
+2023;Justise Winslow;2016;2
+2024;Justise Winslow;2017;0
+2025;Justise Winslow;2018;2
+2026;Justise Winslow;2019;0
+2027;Justise Winslow;2020;0
+2028;Justise Winslow;2021;1
+2029;Jusuf Nurkic;2015;2
+2030;Jusuf Nurkic;2016;1
+2031;Jusuf Nurkic;2017;3
+2032;Jusuf Nurkic;2018;3
+2033;Jusuf Nurkic;2019;3
+2034;Jusuf Nurkic;2020;4
+2035;Jusuf Nurkic;2021;4
+2036;Juwan Morgan;2020;1
+2037;Juwan Morgan;2021;1
+2038;KZ Okpala;2020;1
+2039;KZ Okpala;2021;2
+2040;Karim Mane;2021;2
+2041;Karl-Anthony Towns;2016;0
+2042;Karl-Anthony Towns;2017;0
+2043;Karl-Anthony Towns;2018;0
+2044;Karl-Anthony Towns;2019;2
+2045;Karl-Anthony Towns;2020;2
+2046;Karl-Anthony Towns;2021;0
+2047;Kawhi Leonard;2012;2
+2048;Kawhi Leonard;2013;3
+2049;Kawhi Leonard;2014;3
+2050;Kawhi Leonard;2015;3
+2051;Kawhi Leonard;2016;3
+2052;Kawhi Leonard;2017;3
+2053;Kawhi Leonard;2018;0
+2054;Kawhi Leonard;2019;1
+2055;Kawhi Leonard;2020;3
+2056;Kawhi Leonard;2021;4
+2057;Keita Bates-Diop;2019;2
+2058;Keita Bates-Diop;2020;1
+2059;Keita Bates-Diop;2021;1
+2060;Kelan Martin;2006;1
+2061;Kelan Martin;2008;4
+2062;Kelan Martin;2009;4
+2063;Kelan Martin;2010;3
+2064;Kelan Martin;2011;4
+2065;Kelan Martin;2013;3
+2066;Kelan Martin;2014;1
+2067;Kelan Martin;2015;0
+2068;Keljin Blevins;2021;2
+2069;Kelly Olynyk;2014;1
+2070;Kelly Olynyk;2015;2
+2071;Kelly Olynyk;2016;2
+2072;Kelly Olynyk;2017;1
+2073;Kelly Olynyk;2018;2
+2074;Kelly Olynyk;2019;2
+2075;Kelly Olynyk;2020;1
+2076;Kelly Olynyk;2021;2
+2077;Kelly Oubre,;2016;2
+2078;Kelly Oubre,;2017;2
+2079;Kelly Oubre,;2018;1
+2080;Kelly Oubre,;2019;2
+2081;Kelly Oubre,;2020;0
+2082;Kelly Oubre,;2021;0
+2083;Kendrick Nunn;2020;3
+2084;Kendrick Nunn;2021;0
+2085;Kent Bazemore;2013;2
+2086;Kent Bazemore;2014;1
+2087;Kent Bazemore;2015;2
+2088;Kent Bazemore;2016;3
+2089;Kent Bazemore;2017;4
+2090;Kent Bazemore;2018;3
+2091;Kent Bazemore;2019;2
+2092;Kent Bazemore;2020;2
+2093;Kent Bazemore;2021;1
+2094;Kentavious Caldwell-Pope;2014;2
+2095;Kentavious Caldwell-Pope;2015;4
+2096;Kentavious Caldwell-Pope;2016;3
+2097;Kentavious Caldwell-Pope;2017;3
+2098;Kentavious Caldwell-Pope;2018;4
+2099;Kentavious Caldwell-Pope;2019;2
+2100;Kentavious Caldwell-Pope;2020;2
+2101;Kentavious Caldwell-Pope;2021;0
+2102;Kevin Durant;2008;0
+2103;Kevin Durant;2009;4
+2104;Kevin Durant;2010;4
+2105;Kevin Durant;2011;0
+2106;Kevin Durant;2012;3
+2107;Kevin Durant;2013;3
+2108;Kevin Durant;2014;3
+2109;Kevin Durant;2015;4
+2110;Kevin Durant;2016;4
+2111;Kevin Durant;2017;0
+2112;Kevin Durant;2018;0
+2113;Kevin Durant;2019;0
+2114;Kevin Durant;2021;4
+2115;Kevin Huerter;2019;4
+2116;Kevin Huerter;2020;0
+2117;Kevin Huerter;2021;4
+2118;Kevin Knox;2019;0
+2119;Kevin Knox;2020;1
+2120;Kevin Knox;2021;2
+2121;Kevin Love;2009;3
+2122;Kevin Love;2010;0
+2123;Kevin Love;2011;4
+2124;Kevin Love;2012;4
+2125;Kevin Love;2013;1
+2126;Kevin Love;2014;3
+2127;Kevin Love;2015;0
+2128;Kevin Love;2016;0
+2129;Kevin Love;2017;3
+2130;Kevin Love;2018;4
+2131;Kevin Love;2019;3
+2132;Kevin Love;2020;2
+2133;Kevin Love;2021;0
+2134;Kevon Looney;2016;1
+2135;Kevon Looney;2017;2
+2136;Kevon Looney;2018;2
+2137;Kevon Looney;2019;2
+2138;Kevon Looney;2020;2
+2139;Kevon Looney;2021;2
+2140;Khem Birch;2018;2
+2141;Khem Birch;2019;1
+2142;Khem Birch;2020;2
+2143;Khem Birch;2021;2
+2144;Khris Middleton;2013;1
+2145;Khris Middleton;2014;0
+2146;Khris Middleton;2015;0
+2147;Khris Middleton;2016;4
+2148;Khris Middleton;2017;0
+2149;Khris Middleton;2018;3
+2150;Khris Middleton;2019;0
+2151;Khris Middleton;2020;0
+2152;Khris Middleton;2021;4
+2153;Killian Hayes;2021;0
+2154;Kira Lewis,;2021;1
+2155;Klay Thompson;2012;2
+2156;Klay Thompson;2013;3
+2157;Klay Thompson;2015;3
+2158;Klay Thompson;2016;4
+2159;Klay Thompson;2017;3
+2160;Klay Thompson;2018;4
+2161;Klay Thompson;2019;3
+2162;Kostas Antetokounmpo;2019;2
+2163;Kostas Antetokounmpo;2020;1
+2164;Kostas Antetokounmpo;2021;1
+2165;Kris Dunn;2017;2
+2166;Kris Dunn;2018;0
+2167;Kris Dunn;2019;0
+2168;Kris Dunn;2020;1
+2169;Kris Dunn;2021;2
+2170;Kristaps Porzingis;2017;4
+2171;Kristaps Porzingis;2018;3
+2172;Kristaps Porzingis;2020;0
+2173;Kristaps Porzingis;2021;2
+2174;Kyle Anderson;2015;2
+2175;Kyle Anderson;2016;1
+2176;Kyle Anderson;2017;2
+2177;Kyle Anderson;2018;0
+2178;Kyle Anderson;2019;0
+2179;Kyle Anderson;2020;2
+2180;Kyle Anderson;2021;0
+2181;Kyle Guy;2020;2
+2182;Kyle Guy;2021;1
+2183;Kyle Kuzma;2018;0
+2184;Kyle Kuzma;2019;0
+2185;Kyle Kuzma;2020;2
+2186;Kyle Kuzma;2021;0
+2187;Kyle Lowry;2008;4
+2188;Kyle Lowry;2009;3
+2189;Kyle Lowry;2010;1
+2190;Kyle Lowry;2011;4
+2191;Kyle Lowry;2012;4
+2192;Kyle Lowry;2013;3
+2193;Kyle Lowry;2014;4
+2194;Kyle Lowry;2015;4
+2195;Kyle Lowry;2016;4
+2196;Kyle Lowry;2017;0
+2197;Kyle Lowry;2018;3
+2198;Kyle Lowry;2019;3
+2199;Kyle Lowry;2020;4
+2200;Kyle Lowry;2021;4
+2201;Kyrie Irving;2012;4
+2202;Kyrie Irving;2013;4
+2203;Kyrie Irving;2014;4
+2204;Kyrie Irving;2015;4
+2205;Kyrie Irving;2016;0
+2206;Kyrie Irving;2017;3
+2207;Kyrie Irving;2018;4
+2208;Kyrie Irving;2019;3
+2209;Kyrie Irving;2020;4
+2210;Kyrie Irving;2021;4
+2211;LaMarcus Aldridge;2007;0
+2212;LaMarcus Aldridge;2008;2
+2213;LaMarcus Aldridge;2009;1
+2214;LaMarcus Aldridge;2010;2
+2215;LaMarcus Aldridge;2011;3
+2216;LaMarcus Aldridge;2012;4
+2217;LaMarcus Aldridge;2013;3
+2218;LaMarcus Aldridge;2015;4
+2219;LaMarcus Aldridge;2016;3
+2220;LaMarcus Aldridge;2017;0
+2221;LaMarcus Aldridge;2018;3
+2222;LaMarcus Aldridge;2019;3
+2223;LaMarcus Aldridge;2020;4
+2224;LaMarcus Aldridge;2021;2
+2225;LaMelo Ball;2021;2
+2226;Landry Shamet;2019;0
+2227;Landry Shamet;2020;0
+2228;Landry Shamet;2021;2
+2229;Langston Galloway;2015;4
+2230;Langston Galloway;2016;2
+2231;Langston Galloway;2017;2
+2232;Langston Galloway;2018;2
+2233;Langston Galloway;2019;2
+2234;Langston Galloway;2020;2
+2235;Langston Galloway;2021;1
+2236;Lauri Markkanen;2018;0
+2237;Lauri Markkanen;2019;2
+2238;Lauri Markkanen;2020;4
+2239;Lauri Markkanen;2021;2
+2240;LeBron James;2006;3
+2241;LeBron James;2007;3
+2242;LeBron James;2008;4
+2243;LeBron James;2009;3
+2244;LeBron James;2010;4
+2245;LeBron James;2011;3
+2246;LeBron James;2012;4
+2247;LeBron James;2013;0
+2248;LeBron James;2014;3
+2249;LeBron James;2015;0
+2250;LeBron James;2016;0
+2251;LeBron James;2018;4
+2252;LeBron James;2019;3
+2253;LeBron James;2020;0
+2254;LeBron James;2021;3
+2255;Lonnie Walker;2019;2
+2256;Lonnie Walker;2020;2
+2257;Lonnie Walker;2021;0
+2258;Lonzo Ball;2018;4
+2259;Lonzo Ball;2019;4
+2260;Lonzo Ball;2020;0
+2261;Lonzo Ball;2021;0
+2262;Luguentz Dort;2020;0
+2263;Luguentz Dort;2021;0
+2264;Luka Doncic;2019;0
+2265;Luka Doncic;2020;0
+2266;Luka Doncic;2021;4
+2267;Luka Samanic;2021;1
+2268;Luke Kennard;2018;2
+2269;Luke Kennard;2019;1
+2270;Luke Kennard;2020;3
+2271;Luke Kennard;2021;0
+2272;Luke Kornet;2018;2
+2273;Luke Kornet;2019;2
+2274;Luke Kornet;2020;4
+2275;Luke Kornet;2021;1
+2276;Malachi Flynn;2021;2
+2277;Malcolm Brogdon;2017;0
+2278;Malcolm Brogdon;2018;2
+2279;Malcolm Brogdon;2019;3
+2280;Malcolm Brogdon;2020;0
+2281;Malcolm Brogdon;2021;3
+2282;Malik Beasley;2017;1
+2283;Malik Beasley;2018;1
+2284;Malik Beasley;2019;2
+2285;Malik Beasley;2020;2
+2286;Malik Beasley;2021;0
+2287;Malik Monk;2018;2
+2288;Malik Monk;2019;1
+2289;Malik Monk;2020;1
+2290;Malik Monk;2021;2
+2291;Mamadi Diakite;2021;1
+2292;Marc Gasol;2009;3
+2293;Marc Gasol;2010;0
+2294;Marc Gasol;2011;0
+2295;Marc Gasol;2012;0
+2296;Marc Gasol;2013;3
+2297;Marc Gasol;2014;3
+2298;Marc Gasol;2015;2
+2299;Marc Gasol;2016;2
+2300;Marc Gasol;2017;3
+2301;Marc Gasol;2018;3
+2302;Marc Gasol;2019;2
+2303;Marc Gasol;2020;3
+2304;Marc Gasol;2021;3
+2305;Marcus Smart;2015;3
+2306;Marcus Smart;2016;2
+2307;Marcus Smart;2017;3
+2308;Marcus Smart;2018;2
+2309;Marcus Smart;2019;0
+2310;Marcus Smart;2020;0
+2311;Marcus Smart;2021;0
+2312;Markelle Fultz;2018;0
+2313;Markelle Fultz;2019;3
+2314;Markelle Fultz;2020;0
+2315;Markelle Fultz;2021;4
+2316;Marques Bolden;2021;1
+2317;Marquese Chriss;2017;0
+2318;Marquese Chriss;2018;2
+2319;Marquese Chriss;2019;2
+2320;Marquese Chriss;2020;2
+2321;Marquese Chriss;2021;2
+2322;Marvin Bagley;2019;1
+2323;Marvin Bagley;2020;1
+2324;Marvin Bagley;2021;0
+2325;Mason Plumlee;2014;2
+2326;Mason Plumlee;2015;2
+2327;Mason Plumlee;2016;4
+2328;Mason Plumlee;2017;0
+2329;Mason Plumlee;2018;2
+2330;Mason Plumlee;2019;2
+2331;Mason Plumlee;2020;2
+2332;Mason Plumlee;2021;4
+2333;Matisse Thybulle;2020;2
+2334;Matisse Thybulle;2021;1
+2335;Matt Dellavedova;2014;1
+2336;Matt Dellavedova;2015;2
+2337;Matt Dellavedova;2016;2
+2338;Matt Dellavedova;2017;2
+2339;Matt Dellavedova;2018;2
+2340;Matt Dellavedova;2019;2
+2341;Matt Dellavedova;2020;2
+2342;Matt Dellavedova;2021;1
+2343;Matt Thomas;2015;2
+2344;Maurice Harkless;2013;3
+2345;Maurice Harkless;2014;2
+2346;Maurice Harkless;2015;2
+2347;Maurice Harkless;2016;2
+2348;Maurice Harkless;2017;0
+2349;Maurice Harkless;2018;2
+2350;Maurice Harkless;2019;0
+2351;Maurice Harkless;2020;0
+2352;Maurice Harkless;2021;1
+2353;Max Strus;2021;1
+2354;Meyers Leonard;2013;2
+2355;Meyers Leonard;2014;1
+2356;Meyers Leonard;2015;2
+2357;Meyers Leonard;2016;2
+2358;Meyers Leonard;2017;0
+2359;Meyers Leonard;2018;4
+2360;Meyers Leonard;2019;1
+2361;Meyers Leonard;2020;0
+2362;Meyers Leonard;2021;1
+2363;Mfiondu Kabengele;2020;2
+2364;Mfiondu Kabengele;2021;1
+2365;Michael Carter-Williams;2014;3
+2366;Michael Carter-Williams;2015;3
+2367;Michael Carter-Williams;2016;3
+2368;Michael Carter-Williams;2017;0
+2369;Michael Carter-Williams;2018;2
+2370;Michael Carter-Williams;2019;2
+2371;Michael Carter-Williams;2020;1
+2372;Michael Carter-Williams;2021;0
+2373;Michael Porter,;2020;2
+2374;Michael Porter,;2021;3
+2375;Mikal Bridges;2019;0
+2376;Mikal Bridges;2020;2
+2377;Mikal Bridges;2021;0
+2378;Mike Conley;2008;1
+2379;Mike Conley;2009;4
+2380;Mike Conley;2010;4
+2381;Mike Conley;2011;3
+2382;Mike Conley;2012;4
+2383;Mike Conley;2013;0
+2384;Mike Conley;2014;3
+2385;Mike Conley;2015;0
+2386;Mike Conley;2016;3
+2387;Mike Conley;2017;3
+2388;Mike Conley;2018;4
+2389;Mike Conley;2019;0
+2390;Mike Conley;2020;0
+2391;Mike Conley;2021;0
+2392;Mike Muscala;2015;2
+2393;Mike Muscala;2016;1
+2394;Mike Muscala;2017;1
+2395;Mike Muscala;2018;0
+2396;Mike Muscala;2019;1
+2397;Mike Muscala;2020;1
+2398;Mike Muscala;2021;1
+2399;Mike Scott;2013;1
+2400;Mike Scott;2014;1
+2401;Mike Scott;2015;2
+2402;Mike Scott;2016;2
+2403;Mike Scott;2017;2
+2404;Mike Scott;2018;2
+2405;Mike Scott;2019;2
+2406;Mike Scott;2020;1
+2407;Mike Scott;2021;1
+2408;Miles Bridges;2019;0
+2409;Miles Bridges;2020;2
+2410;Miles Bridges;2021;4
+2411;Mitchell Robinson;2019;2
+2412;Mitchell Robinson;2020;1
+2413;Mitchell Robinson;2021;0
+2414;Miye Oni;2020;1
+2415;Miye Oni;2021;1
+2416;Moe Wagner;2019;2
+2417;Moe Wagner;2020;2
+2418;Moe Wagner;2021;2
+2419;Mohamed Bamba;2019;1
+2420;Mohamed Bamba;2020;2
+2421;Mohamed Bamba;2021;2
+2422;Monte Morris;2018;2
+2423;Monte Morris;2019;2
+2424;Monte Morris;2020;2
+2425;Monte Morris;2021;2
+2426;Montrezl Harrell;2016;2
+2427;Montrezl Harrell;2017;2
+2428;Montrezl Harrell;2018;2
+2429;Montrezl Harrell;2019;2
+2430;Montrezl Harrell;2020;2
+2431;Montrezl Harrell;2021;1
+2432;Moses Brown;2020;2
+2433;Moses Brown;2021;2
+2434;Mychal Mulder;2020;3
+2435;Mychal Mulder;2021;1
+2436;Myles Turner;2016;0
+2437;Myles Turner;2017;3
+2438;Myles Turner;2018;0
+2439;Myles Turner;2019;3
+2440;Myles Turner;2020;0
+2441;Myles Turner;2021;0
+2442;Naji Marshall;2021;2
+2443;Nassir Little;2020;2
+2444;Nassir Little;2021;2
+2445;Nate Darling;2021;2
+2446;Nate Hinton;2021;1
+2447;Nathan Knight;2021;1
+2448;Naz Reid;2020;2
+2449;Naz Reid;2021;1
+2450;Nemanja Bjelica;2016;1
+2451;Nemanja Bjelica;2017;1
+2452;Nemanja Bjelica;2018;1
+2453;Nemanja Bjelica;2019;0
+2454;Nemanja Bjelica;2020;0
+2455;Nemanja Bjelica;2021;2
+2456;Nerlens Noel;2015;0
+2457;Nerlens Noel;2016;0
+2458;Nerlens Noel;2017;2
+2459;Nerlens Noel;2018;1
+2460;Nerlens Noel;2019;2
+2461;Nerlens Noel;2020;2
+2462;Nerlens Noel;2021;3
+2463;Nick Richards;2021;1
+2464;Nickeil Alexander-Walker;2020;2
+2465;Nickeil Alexander-Walker;2021;2
+2466;Nico Mannion;2021;1
+2467;Nicolas Batum;2009;4
+2468;Nicolas Batum;2010;4
+2469;Nicolas Batum;2011;4
+2470;Nicolas Batum;2012;0
+2471;Nicolas Batum;2013;0
+2472;Nicolas Batum;2014;0
+2473;Nicolas Batum;2015;0
+2474;Nicolas Batum;2016;0
+2475;Nicolas Batum;2017;0
+2476;Nicolas Batum;2018;0
+2477;Nicolas Batum;2019;3
+2478;Nicolas Batum;2020;2
+2479;Nicolas Batum;2021;2
+2480;Nicolas Claxton;2020;1
+2481;Nicolas Claxton;2021;1
+2482;Nicolo Melli;2020;1
+2483;Nicolo Melli;2021;1
+2484;Nikola Jokic;2016;0
+2485;Nikola Jokic;2017;0
+2486;Nikola Jokic;2018;0
+2487;Nikola Jokic;2019;0
+2488;Nikola Jokic;2020;0
+2489;Nikola Jokic;2021;2
+2490;Nikola Vucevic;2012;3
+2491;Nikola Vucevic;2013;0
+2492;Nikola Vucevic;2014;3
+2493;Nikola Vucevic;2015;2
+2494;Nikola Vucevic;2016;0
+2495;Nikola Vucevic;2017;1
+2496;Nikola Vucevic;2018;2
+2497;Nikola Vucevic;2019;3
+2498;Nikola Vucevic;2020;3
+2499;Nikola Vucevic;2021;0
+2500;Norman Powell;2016;0
+2501;Norman Powell;2017;2
+2502;Norman Powell;2018;0
+2503;Norman Powell;2019;2
+2504;Norman Powell;2020;2
+2505;Norman Powell;2021;0
+2506;Obi Toppin;2021;2
+2507;Ogugua Anunoby;2018;2
+2508;Ogugua Anunoby;2019;2
+2509;Ogugua Anunoby;2020;3
+2510;Ogugua Anunoby;2021;0
+2511;Onyeka Okongwu;2021;1
+2512;Otto Porter;2014;1
+2513;Otto Porter;2015;2
+2514;Otto Porter;2016;0
+2515;Otto Porter;2017;0
+2516;Otto Porter;2018;0
+2517;Otto Porter;2019;3
+2518;Otto Porter;2020;0
+2519;Otto Porter;2021;1
+2520;Pascal Siakam;2017;0
+2521;Pascal Siakam;2018;2
+2522;Pascal Siakam;2019;3
+2523;Pascal Siakam;2020;3
+2524;Pascal Siakam;2021;0
+2525;Pat Connaughton;2016;1
+2526;Pat Connaughton;2017;1
+2527;Pat Connaughton;2018;2
+2528;Pat Connaughton;2019;2
+2529;Pat Connaughton;2020;2
+2530;Pat Connaughton;2021;1
+2531;Patrick Beverley;2013;1
+2532;Patrick Beverley;2014;3
+2533;Patrick Beverley;2015;4
+2534;Patrick Beverley;2016;3
+2535;Patrick Beverley;2017;3
+2536;Patrick Beverley;2018;3
+2537;Patrick Beverley;2019;2
+2538;Patrick Beverley;2020;0
+2539;Patrick Beverley;2021;3
+2540;Patrick McCaw;2017;2
+2541;Patrick McCaw;2018;2
+2542;Patrick McCaw;2019;2
+2543;Patrick McCaw;2020;2
+2544;Patrick McCaw;2021;0
+2545;Patrick Patterson;2011;2
+2546;Patrick Patterson;2012;2
+2547;Patrick Patterson;2013;4
+2548;Patrick Patterson;2014;1
+2549;Patrick Patterson;2015;2
+2550;Patrick Patterson;2016;2
+2551;Patrick Patterson;2017;2
+2552;Patrick Patterson;2018;1
+2553;Patrick Patterson;2019;2
+2554;Patrick Patterson;2020;0
+2555;Patrick Patterson;2021;2
+2556;Patrick Williams;2021;3
+2557;Patty Mills;2009;1
+2558;Patty Mills;2010;2
+2559;Patty Mills;2011;4
+2560;Patty Mills;2012;4
+2561;Patty Mills;2013;4
+2562;Patty Mills;2014;3
+2563;Patty Mills;2015;3
+2564;Patty Mills;2016;4
+2565;Patty Mills;2017;4
+2566;Patty Mills;2018;3
+2567;Patty Mills;2019;3
+2568;Patty Mills;2020;3
+2569;Patty Mills;2021;0
+2570;Paul George;2011;2
+2571;Paul George;2012;0
+2572;Paul George;2013;3
+2573;Paul George;2014;4
+2574;Paul George;2015;4
+2575;Paul George;2016;3
+2576;Paul George;2017;4
+2577;Paul George;2018;0
+2578;Paul George;2019;0
+2579;Paul George;2020;3
+2580;Paul George;2021;0
+2581;Paul Millsap;2007;1
+2582;Paul Millsap;2009;0
+2583;Paul Millsap;2010;0
+2584;Paul Millsap;2011;4
+2585;Paul Millsap;2012;4
+2586;Paul Millsap;2013;0
+2587;Paul Millsap;2014;0
+2588;Paul Millsap;2015;0
+2589;Paul Millsap;2016;0
+2590;Paul Millsap;2017;3
+2591;Paul Millsap;2018;4
+2592;Paul Millsap;2019;0
+2593;Paul Millsap;2020;4
+2594;Paul Millsap;2021;2
+2595;Paul Watson;2021;1
+2596;Payton Pritchard;2021;1
+2597;Precious Achiuwa;2021;1
+2598;Quinn Cook;2017;1
+2599;Quinn Cook;2018;3
+2600;Quinn Cook;2019;2
+2601;Quinn Cook;2020;3
+2602;Quinn Cook;2021;1
+2603;Quinndary Weatherspoon;2020;1
+2604;Quinndary Weatherspoon;2021;2
+2605;Rajon Rondo;2007;2
+2606;Rajon Rondo;2008;0
+2607;Rajon Rondo;2009;3
+2608;Rajon Rondo;2010;4
+2609;Rajon Rondo;2011;4
+2610;Rajon Rondo;2012;3
+2611;Rajon Rondo;2013;4
+2612;Rajon Rondo;2014;4
+2613;Rajon Rondo;2015;0
+2614;Rajon Rondo;2016;3
+2615;Rajon Rondo;2017;3
+2616;Rajon Rondo;2018;4
+2617;Rajon Rondo;2019;0
+2618;Rajon Rondo;2020;2
+2619;Rajon Rondo;2021;2
+2620;Raulzinho Neto;2016;3
+2621;Raulzinho Neto;2017;2
+2622;Raulzinho Neto;2018;2
+2623;Raulzinho Neto;2019;2
+2624;Raulzinho Neto;2020;1
+2625;Raulzinho Neto;2021;2
+2626;Reggie Bullock;2014;2
+2627;Reggie Bullock;2015;2
+2628;Reggie Bullock;2016;2
+2629;Reggie Bullock;2017;2
+2630;Reggie Bullock;2018;0
+2631;Reggie Bullock;2019;4
+2632;Reggie Bullock;2020;3
+2633;Reggie Bullock;2021;3
+2634;Reggie Jackson;2012;1
+2635;Reggie Jackson;2013;1
+2636;Reggie Jackson;2014;0
+2637;Reggie Jackson;2015;3
+2638;Reggie Jackson;2016;4
+2639;Reggie Jackson;2017;0
+2640;Reggie Jackson;2018;4
+2641;Reggie Jackson;2019;4
+2642;Reggie Jackson;2020;2
+2643;Reggie Jackson;2021;2
+2644;Reggie Perry;2021;1
+2645;Richaun Holmes;2016;2
+2646;Richaun Holmes;2017;0
+2647;Richaun Holmes;2018;2
+2648;Richaun Holmes;2019;2
+2649;Richaun Holmes;2020;0
+2650;Richaun Holmes;2021;0
+2651;Ricky Rubio;2012;4
+2652;Ricky Rubio;2013;3
+2653;Ricky Rubio;2014;4
+2654;Ricky Rubio;2015;4
+2655;Ricky Rubio;2016;4
+2656;Ricky Rubio;2017;4
+2657;Ricky Rubio;2018;4
+2658;Ricky Rubio;2019;3
+2659;Ricky Rubio;2020;3
+2660;Ricky Rubio;2021;0
+2661;Robert Covington;2014;2
+2662;Robert Covington;2015;3
+2663;Robert Covington;2016;0
+2664;Robert Covington;2017;4
+2665;Robert Covington;2018;0
+2666;Robert Covington;2019;0
+2667;Robert Covington;2020;0
+2668;Robert Covington;2021;0
+2669;Robert Woodard;2021;0
+2670;Robin Lopez;2009;1
+2671;Robin Lopez;2010;3
+2672;Robin Lopez;2011;0
+2673;Robin Lopez;2012;0
+2674;Robin Lopez;2013;3
+2675;Robin Lopez;2014;3
+2676;Robin Lopez;2015;0
+2677;Robin Lopez;2016;4
+2678;Robin Lopez;2017;0
+2679;Robin Lopez;2018;4
+2680;Robin Lopez;2019;2
+2681;Robin Lopez;2020;2
+2682;Robin Lopez;2021;2
+2683;Rodions Kurucs;2019;0
+2684;Rodions Kurucs;2020;2
+2685;Rodions Kurucs;2021;2
+2686;Rodney Hood;2015;0
+2687;Rodney Hood;2016;3
+2688;Rodney Hood;2017;3
+2689;Rodney Hood;2018;2
+2690;Rodney Hood;2019;0
+2691;Rodney Hood;2020;4
+2692;Rodney Hood;2021;2
+2693;Rodney McGruder;2017;3
+2694;Rodney McGruder;2019;0
+2695;Rodney McGruder;2020;2
+2696;Rodney McGruder;2021;2
+2697;Romeo Langford;2020;1
+2698;Romeo Langford;2021;2
+2699;Rudy Gay;2007;4
+2700;Rudy Gay;2008;0
+2701;Rudy Gay;2009;0
+2702;Rudy Gay;2010;3
+2703;Rudy Gay;2011;4
+2704;Rudy Gay;2012;3
+2705;Rudy Gay;2013;0
+2706;Rudy Gay;2014;3
+2707;Rudy Gay;2015;4
+2708;Rudy Gay;2016;0
+2709;Rudy Gay;2017;0
+2710;Rudy Gay;2018;2
+2711;Rudy Gay;2019;0
+2712;Rudy Gay;2020;1
+2713;Rudy Gay;2021;1
+2714;Rudy Gobert;2014;1
+2715;Rudy Gobert;2015;3
+2716;Rudy Gobert;2016;3
+2717;Rudy Gobert;2017;3
+2718;Rudy Gobert;2018;3
+2719;Rudy Gobert;2019;0
+2720;Rudy Gobert;2020;0
+2721;Rudy Gobert;2021;0
+2722;Rui Hachimura;2020;0
+2723;Rui Hachimura;2021;0
+2724;Russell Westbrook;2009;0
+2725;Russell Westbrook;2010;4
+2726;Russell Westbrook;2011;4
+2727;Russell Westbrook;2012;3
+2728;Russell Westbrook;2013;3
+2729;Russell Westbrook;2014;4
+2730;Russell Westbrook;2015;4
+2731;Russell Westbrook;2016;4
+2732;Russell Westbrook;2017;0
+2733;Russell Westbrook;2018;3
+2734;Russell Westbrook;2019;4
+2735;Russell Westbrook;2020;3
+2736;Russell Westbrook;2021;4
+2737;Ryan Arcidiacono;2018;2
+2738;Ryan Arcidiacono;2019;3
+2739;Ryan Arcidiacono;2020;1
+2740;Ryan Arcidiacono;2021;1
+2741;Saben Lee;2021;1
+2742;Saddiq Bey;2021;2
+2743;Sam Merrill;2021;2
+2744;Sean McDermott;2021;2
+2745;Sekou Doumbouya;2020;0
+2746;Sekou Doumbouya;2021;1
+2747;Semi Ojeleye;2018;2
+2748;Semi Ojeleye;2019;2
+2749;Semi Ojeleye;2020;2
+2750;Semi Ojeleye;2021;2
+2751;Serge Ibaka;2010;1
+2752;Serge Ibaka;2011;4
+2753;Serge Ibaka;2012;0
+2754;Serge Ibaka;2013;3
+2755;Serge Ibaka;2014;3
+2756;Serge Ibaka;2015;0
+2757;Serge Ibaka;2016;4
+2758;Serge Ibaka;2017;0
+2759;Serge Ibaka;2018;0
+2760;Serge Ibaka;2019;0
+2761;Serge Ibaka;2020;2
+2762;Serge Ibaka;2021;2
+2763;Seth Curry;2016;1
+2764;Seth Curry;2017;3
+2765;Seth Curry;2019;2
+2766;Seth Curry;2020;0
+2767;Seth Curry;2021;0
+2768;Shai Gilgeous-Alexander;2019;4
+2769;Shai Gilgeous-Alexander;2020;0
+2770;Shai Gilgeous-Alexander;2021;0
+2771;Shake Milton;2019;0
+2772;Shake Milton;2020;0
+2773;Shake Milton;2021;2
+2774;Shaquille Harrison;2018;3
+2775;Shaquille Harrison;2019;2
+2776;Shaquille Harrison;2020;2
+2777;Shaquille Harrison;2021;2
+2778;Sindarius Thornwell;2018;2
+2779;Sindarius Thornwell;2019;2
+2780;Sindarius Thornwell;2021;2
+2781;Skylar Mays;2021;2
+2782;Solomon Hill;2014;1
+2783;Solomon Hill;2015;0
+2784;Solomon Hill;2016;1
+2785;Solomon Hill;2017;0
+2786;Solomon Hill;2018;1
+2787;Solomon Hill;2019;1
+2788;Solomon Hill;2020;2
+2789;Solomon Hill;2021;1
+2790;Spencer Dinwiddie;2015;1
+2791;Spencer Dinwiddie;2017;0
+2792;Spencer Dinwiddie;2018;4
+2793;Spencer Dinwiddie;2019;2
+2794;Spencer Dinwiddie;2020;4
+2795;Spencer Dinwiddie;2021;3
+2796;Stephen Curry;2010;4
+2797;Stephen Curry;2011;4
+2798;Stephen Curry;2012;4
+2799;Stephen Curry;2013;4
+2800;Stephen Curry;2014;4
+2801;Stephen Curry;2015;4
+2802;Stephen Curry;2016;4
+2803;Stephen Curry;2017;3
+2804;Stephen Curry;2018;4
+2805;Stephen Curry;2019;4
+2806;Stephen Curry;2020;2
+2807;Stephen Curry;2021;4
+2808;Steven Adams;2014;2
+2809;Steven Adams;2015;3
+2810;Steven Adams;2016;3
+2811;Steven Adams;2017;0
+2812;Steven Adams;2018;0
+2813;Steven Adams;2019;0
+2814;Steven Adams;2020;0
+2815;Steven Adams;2021;0
+2816;Svi Mykhailiuk;2019;2
+2817;Svi Mykhailiuk;2020;2
+2818;Svi Mykhailiuk;2021;2
+2819;Tacko Fall;2020;1
+2820;Tacko Fall;2021;1
+2821;Taj Gibson;2010;3
+2822;Taj Gibson;2011;3
+2823;Taj Gibson;2012;2
+2824;Taj Gibson;2013;1
+2825;Taj Gibson;2014;2
+2826;Taj Gibson;2015;2
+2827;Taj Gibson;2016;0
+2828;Taj Gibson;2017;0
+2829;Taj Gibson;2018;3
+2830;Taj Gibson;2019;0
+2831;Taj Gibson;2020;0
+2832;Taj Gibson;2021;2
+2833;Talen Horton-Tucker;2020;2
+2834;Talen Horton-Tucker;2021;1
+2835;Taurean Prince;2006;3
+2836;Taurean Prince;2007;4
+2837;Taurean Prince;2008;3
+2838;Taurean Prince;2009;3
+2839;Taurean Prince;2010;3
+2840;Taurean Prince;2011;3
+2841;Taurean Prince;2012;3
+2842;Taurean Prince;2013;3
+2843;Taurean Prince;2014;3
+2844;Taurean Prince;2015;2
+2845;Taurean Prince;2016;2
+2846;Terance Mann;2020;2
+2847;Terance Mann;2021;1
+2848;Terrance Ferguson;2018;2
+2849;Terrance Ferguson;2019;4
+2850;Terrance Ferguson;2020;2
+2851;Terrance Ferguson;2021;1
+2852;Terrence Ross;2013;2
+2853;Terrence Ross;2014;3
+2854;Terrence Ross;2015;2
+2855;Terrence Ross;2016;2
+2856;Terrence Ross;2017;2
+2857;Terrence Ross;2018;3
+2858;Terrence Ross;2019;2
+2859;Terrence Ross;2020;2
+2860;Terrence Ross;2021;2
+2861;Terry Rozier;2016;2
+2862;Terry Rozier;2017;2
+2863;Terry Rozier;2018;2
+2864;Terry Rozier;2019;2
+2865;Terry Rozier;2020;3
+2866;Terry Rozier;2021;0
+2867;Thaddeus Young;2008;3
+2868;Thaddeus Young;2009;0
+2869;Thaddeus Young;2010;3
+2870;Thaddeus Young;2011;1
+2871;Thaddeus Young;2012;2
+2872;Thaddeus Young;2013;3
+2873;Thaddeus Young;2014;0
+2874;Thaddeus Young;2015;0
+2875;Thaddeus Young;2016;0
+2876;Thaddeus Young;2017;0
+2877;Thaddeus Young;2018;0
+2878;Thaddeus Young;2019;3
+2879;Thaddeus Young;2020;2
+2880;Thaddeus Young;2021;2
+2881;Thanasis Antetokounmpo;2016;1
+2882;Thanasis Antetokounmpo;2020;2
+2883;Thanasis Antetokounmpo;2021;1
+2884;Theo Maledon;2021;0
+2885;Theo Pinson;2019;1
+2886;Theo Pinson;2020;2
+2887;Theo Pinson;2021;1
+2888;Thomas Bryant;2018;2
+2889;Thomas Bryant;2019;0
+2890;Thomas Bryant;2020;0
+2891;Thomas Bryant;2021;0
+2892;Timothe Luwawu-Cabarrot;2017;2
+2893;Timothe Luwawu-Cabarrot;2018;2
+2894;Timothe Luwawu-Cabarrot;2019;2
+2895;Timothe Luwawu-Cabarrot;2020;2
+2896;Timothe Luwawu-Cabarrot;2021;1
+2897;Tomas Satoransky;2017;1
+2898;Tomas Satoransky;2018;0
+2899;Tomas Satoransky;2019;0
+2900;Tomas Satoransky;2020;3
+2901;Tomas Satoransky;2021;2
+2902;Tony Bradley;2018;1
+2903;Tony Bradley;2020;1
+2904;Tony Bradley;2021;1
+2905;Tony Snell;2014;0
+2906;Tony Snell;2015;0
+2907;Tony Snell;2016;4
+2908;Tony Snell;2017;3
+2909;Tony Snell;2018;3
+2910;Tony Snell;2019;1
+2911;Tony Snell;2020;3
+2912;Tony Snell;2021;0
+2913;Torrey Craig;2018;3
+2914;Torrey Craig;2019;0
+2915;Torrey Craig;2020;2
+2916;Torrey Craig;2021;1
+2917;Trae Young;2019;0
+2918;Trae Young;2020;4
+2919;Trae Young;2021;0
+2920;Tre Jones;2021;2
+2921;Tremont Waters;2020;2
+2922;Tremont Waters;2021;2
+2923;Trent Forrest;2021;2
+2924;Trevor Ariza;2006;1
+2925;Trevor Ariza;2009;3
+2926;Trevor Ariza;2010;3
+2927;Trevor Ariza;2011;4
+2928;Trevor Ariza;2012;3
+2929;Trevor Ariza;2013;1
+2930;Trevor Ariza;2014;0
+2931;Trevor Ariza;2015;3
+2932;Trevor Ariza;2016;4
+2933;Trevor Ariza;2017;4
+2934;Trevor Ariza;2018;0
+2935;Trevor Ariza;2019;0
+2936;Trevor Ariza;2020;2
+2937;Trevor Ariza;2021;3
+2938;Trey Burke;2014;4
+2939;Trey Burke;2015;3
+2940;Trey Burke;2016;1
+2941;Trey Burke;2017;2
+2942;Trey Burke;2018;2
+2943;Trey Burke;2019;2
+2944;Trey Burke;2020;2
+2945;Trey Burke;2021;2
+2946;Trey Lyles;2016;2
+2947;Trey Lyles;2017;1
+2948;Trey Lyles;2018;1
+2949;Trey Lyles;2019;2
+2950;Trey Lyles;2020;0
+2951;Trey Lyles;2021;2
+2952;Tristan Thompson;2012;2
+2953;Tristan Thompson;2013;0
+2954;Tristan Thompson;2014;0
+2955;Tristan Thompson;2015;2
+2956;Tristan Thompson;2016;1
+2957;Tristan Thompson;2017;4
+2958;Tristan Thompson;2018;2
+2959;Tristan Thompson;2019;0
+2960;Tristan Thompson;2020;0
+2961;Tristan Thompson;2021;0
+2962;Troy Brown,;2019;2
+2963;Troy Brown,;2020;2
+2964;Troy Brown,;2021;2
+2965;Ty Jerome;2020;0
+2966;Ty Jerome;2021;2
+2967;Ty-Shon Alexander;2021;1
+2968;Tyler Bey;2021;1
+2969;Tyler Herro;2020;2
+2970;Tyler Herro;2021;2
+2971;Tyler Johnson;2015;2
+2972;Tyler Johnson;2016;1
+2973;Tyler Johnson;2017;2
+2974;Tyler Johnson;2018;0
+2975;Tyler Johnson;2019;2
+2976;Tyler Johnson;2020;2
+2977;Tyler Johnson;2021;2
+2978;Tyrell Terry;2021;1
+2979;Tyrese Haliburton;2021;2
+2980;Tyrese Maxey;2021;2
+2981;Tyus Jones;2016;0
+2982;Tyus Jones;2017;2
+2983;Tyus Jones;2018;2
+2984;Tyus Jones;2019;2
+2985;Tyus Jones;2020;2
+2986;Tyus Jones;2021;2
+2987;Udoka Azubuike;2021;1
+2988;Udonis Haslem;2008;3
+2989;Udonis Haslem;2009;0
+2990;Udonis Haslem;2010;1
+2991;Udonis Haslem;2011;0
+2992;Udonis Haslem;2012;1
+2993;Udonis Haslem;2013;0
+2994;Udonis Haslem;2014;4
+2995;Udonis Haslem;2015;2
+2996;Udonis Haslem;2016;1
+2997;Udonis Haslem;2017;0
+2998;Udonis Haslem;2018;1
+2999;Vernon Carey,;2021;2
+3000;Victor Oladipo;2014;3
+3001;Victor Oladipo;2015;3
+3002;Victor Oladipo;2016;4
+3003;Victor Oladipo;2017;3
+3004;Victor Oladipo;2018;3
+3005;Victor Oladipo;2019;3
+3006;Victor Oladipo;2020;3
+3007;Victor Oladipo;2021;4
+3008;Vincent Poirier;2020;1
+3009;Vincent Poirier;2021;1
+3010;Vlatko Cancar;2020;1
+3011;Vlatko Cancar;2021;1
+3012;Wayne Ellington;2010;2
+3013;Wayne Ellington;2011;1
+3014;Wayne Ellington;2012;0
+3015;Wayne Ellington;2013;2
+3016;Wayne Ellington;2014;1
+3017;Wayne Ellington;2015;0
+3018;Wayne Ellington;2016;0
+3019;Wayne Ellington;2017;2
+3020;Wayne Ellington;2018;2
+3021;Wayne Ellington;2019;0
+3022;Wayne Ellington;2020;1
+3023;Wayne Ellington;2021;0
+3024;Wendell Carter,;2019;0
+3025;Wendell Carter,;2020;0
+3026;Wendell Carter,;2021;0
+3027;Wenyen Gabriel;2020;2
+3028;Wenyen Gabriel;2021;1
+3029;Wesley Iwundu;2018;2
+3030;Wesley Iwundu;2019;1
+3031;Wesley Iwundu;2020;2
+3032;Wesley Iwundu;2021;2
+3033;Will Barton;2013;2
+3034;Will Barton;2014;1
+3035;Will Barton;2015;1
+3036;Will Barton;2016;1
+3037;Will Barton;2017;4
+3038;Will Barton;2018;4
+3039;Will Barton;2019;4
+3040;Will Barton;2020;0
+3041;Will Barton;2021;0
+3042;Willie Cauley-Stein;2016;3
+3043;Willie Cauley-Stein;2017;2
+3044;Willie Cauley-Stein;2018;2
+3045;Willie Cauley-Stein;2019;0
+3046;Willie Cauley-Stein;2020;0
+3047;Willie Cauley-Stein;2021;2
+3048;Willy Hernangomez;2017;2
+3049;Willy Hernangomez;2018;1
+3050;Willy Hernangomez;2019;1
+3051;Willy Hernangomez;2020;2
+3052;Willy Hernangomez;2021;2
+3053;Xavier Tillman,;2021;1
+3054;Yuta Watanabe;2019;1
+3055;Yuta Watanabe;2020;2
+3056;Yuta Watanabe;2021;1
+3057;Zach Collins;2018;2
+3058;Zach Collins;2019;1
+3059;Zach Collins;2020;1
+3060;Zach LaVine;2015;2
+3061;Zach LaVine;2016;0
+3062;Zach LaVine;2017;3
+3063;Zach LaVine;2018;0
+3064;Zach LaVine;2019;0
+3065;Zach LaVine;2020;3
+3066;Zach LaVine;2021;0
+3067;Zeke Nnaji;2021;1
+3068;Zion Williamson;2020;2
+3069;Zion Williamson;2021;0
