@@ -13,8 +13,10 @@ import numpy as np
 import tkinter as tk
 from tkinter import ttk
 from joblib import load
+from pandastable import Table
 
 df=pd.read_csv("data/data_ML.csv", sep=";")
+proj_game=pd.read_csv("data/Base_simu.csv",sep=";")
 
 def prp_en_carriere(full_name):
     data = pd.read_csv("data/evo_carriere.csv", sep =";")
@@ -204,8 +206,6 @@ def stat_Opp_team(full_name,Opp):
     
     root3.mainloop()
 
-player_team="POR"
-Opp="LAL"
 def stat_teams (player_team,Opp):
     root4 = tk.Tk()
     root4.geometry('1750x200')
@@ -418,3 +418,163 @@ def afficher_predictions(full_name, Opp, Opp_player,game_start,domicile,month,
         label.pack()
     
     root5.mainloop()
+
+def absence(data):
+    try:
+        data = data.drop(data.loc[data['absence']==1].index)
+        data = data.drop(data.loc[data['minutes']==0].index)
+        return(data)
+    except:
+        pass
+
+def afficher_team(donnees):
+    tableau = tk.Tk()
+    frame = tk.Frame(tableau)
+    frame.pack()
+    
+    pt = Table(frame,dataframe = donnees)
+    pt.show()
+    
+    tableau.mainloop()
+    
+def create_df(data,month):
+    data["Opp_code"]=data['POS'].map(str) + data['Opp'].map(str) + data['GS'].map(str)
+    
+    liste_code = data['Opp_code']
+    Opp=(data['Opp'])
+    Opp=pd.DataFrame(Opp)
+    Opp=Opp.drop_duplicates(["Opp"])
+    Opp=str(*Opp["Opp"])
+    
+    codes=[]
+    for code in liste_code:
+        df_code=proj_game.loc[proj_game['code']==code]
+        df_code=df_code.drop_duplicates(['code'])
+        codes.append(df_code)
+    X = pd.concat(codes)
+    X = X[["code","cluster_def"]]
+    X= X.rename(columns={"code":"Opp_code","cluster_def":"cluster_player"})
+    Y = proj_game.loc[proj_game['Tm']==Opp]
+    Y=Y[["Tm","cluster_c"]]
+    Y = Y.drop_duplicates(["cluster_c"])
+    Y = Y.rename(columns={"Tm":"Opp","cluster_c":"cluster_coach"})
+
+    data=pd.merge(data,X,on="Opp_code",how="left")
+    data=pd.merge(data,Y,on="Opp",how="left")
+    data = data.drop_duplicates(['full_name','Tm'],keep= 'last')
+    data['cluster_player']=data['cluster_player'].fillna(0)
+    
+    data['month']=month
+    data['bonus_malus']=0
+    data['absence']=0
+    return(data)
+    
+def simulation_match():
+    del proj_game['Unnamed: 0']
+    model=load("models/Ridge_PTS_simu.joblib")
+            
+    def simul_match(data,month):
+        data["Opp_code"]=data['POS'].map(str) + data['Opp'].map(str) + data['GS'].map(str)
+    
+        liste_code = data['Opp_code']
+        Opp=(data['Opp'])
+        Opp=pd.DataFrame(Opp)
+        Opp=Opp.drop_duplicates(["Opp"])
+        Opp=str(*Opp["Opp"])
+        
+        codes=[]
+        for code in liste_code:
+            df_code=proj_game.loc[proj_game['code']==code]
+            df_code=df_code.drop_duplicates(['code'])
+            codes.append(df_code)
+        X = pd.concat(codes)
+        X = X[["code","cluster_def"]]
+        X= X.rename(columns={"code":"Opp_code","cluster_def":"cluster_player"})
+        Y = proj_game.loc[proj_game['Tm']==Opp]
+        Y=Y[["Tm","cluster_c"]]
+        Y = Y.drop_duplicates(["cluster_c"])
+        Y = Y.rename(columns={"Tm":"Opp","cluster_c":"cluster_coach"})
+    
+        data=pd.merge(data,X,on="Opp_code",how="left")
+        data=pd.merge(data,Y,on="Opp",how="left")
+        data = data.drop_duplicates(['full_name','Tm'],keep= 'last')
+        data['cluster_player']=data['cluster_player'].fillna(0)
+        
+        data['month']=month
+        data['bonus_malus']=0
+        data['absence']=0
+        
+        data['score']=model.predict(data)
+        data['ptspred']=np.exp(data['score'])
+        data['pts_pred']=data['ptspred']+data['bonus_malus']
+        data["score_tot"]=sum(data["pts_pred"])
+        data["score_fin"]=(data['score_tot']/sum(data["minutes"]))*240
+        return(data)
+    
+    def simulation(team_proj,Opp, month):
+        equipe=team_proj
+#        boxscore=pd.DataFrame(columns={"joueur","points"})
+        try:
+            month=month
+            df_team=proj_game.loc[(proj_game['Tm']==equipe)]
+            df_Opp=proj_game.loc[(proj_game['Tm']==Opp)]
+            df_team['Opp']=Opp
+            df_Opp['Opp']=equipe
+            df_team=absence(df_team,team_player_list)
+            df_Opp=absence(df_Opp,Opp_player_list)
+            df_team=simul_match(df_team,month)
+            df_Opp=simul_match(df_Opp,month) 
+                
+            score_t = df_team.drop_duplicates(['score_fin'],keep="last")
+            score_O = df_Opp.drop_duplicates(['score_fin'],keep="last")
+        except:
+                pass
+        return(df_team, df_Opp, score_t, score_O)
+    
+    team_player_list=["Jrue Holiday"]
+    Opp_player_list=[""]
+    A,B,C,D=simulation("mil","lal",10)
+    
+def modif_roster(equipe,Opp,month):
+
+    fenet = tk.Tk()
+    lbox1=tk.Listbox(fenet,selectmode="multiple")
+    lbox2=tk.Listbox(fenet,selectmode="multiple")
+    lbox1.delete('0', 'end')
+    lbox2.delete('0', 'end')
+    
+    month=month
+    
+    equipe=equipe
+    
+    Opp=Opp
+    
+    df_team=proj_game.loc[proj_game['Tm']==equipe]
+    df_team['Opp']=Opp
+    df_team=create_df(df_team,month)
+    del df_team['Unnamed: 0']
+    del df_team['Unnamed: 0.1']
+    
+    df_Opp=proj_game.loc[proj_game['Tm']==Opp]
+    df_Opp['Opp']=equipe
+    df_Opp=create_df(df_Opp,month)
+    del df_Opp['Unnamed: 0']
+    del df_Opp['Unnamed: 0.1']
+    
+    nom_team = df_team['full_name']
+
+    nom_Opp = df_Opp['full_name']
+    
+    
+    for x in nom_team:
+            lbox1.insert("end",x)
+            
+    
+    for x in nom_Opp:
+            lbox2.insert("end",x)
+    
+    lbox1.grid(column=0,row=0)
+    lbox2.grid(column=1,row=0)
+    
+    fenet.mainloop()
+    

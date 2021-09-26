@@ -6,9 +6,11 @@ Created on Mon Mar 22 12:21:32 2021
 """
 import tkinter as tk
 from config.Fonctions import prp_en_carriere, stat_20matchs_splits, stat_Opp_team, stat_teams,afficher_predictions
+from config.Fonctions import modif_roster, create_df, afficher_team
 from config.Entrainement_modèles import train_model_pts, train_model_ast,train_model_trb,train_model_fga
 from config.maj_data_fun import miseajour
 import pandas as pd
+import numpy as np
 from tkinter import ttk
 import datetime
 import os
@@ -16,9 +18,11 @@ import time
 
 players_base = pd.read_csv('data/nba_players.csv', sep=";")
 
+proj_game=pd.read_csv("data/Base_simu.csv",sep=";")
+
 root = tk.Tk()
 root.iconbitmap('config/icone.ico')
-root.title("NBApp pour parieur avérés")
+root.title("NBApp pour parieur avertis")
 
 def afficher_aide():
     os.startfile("Aide.txt")
@@ -73,8 +77,11 @@ o1 = ttk.Frame(n)#, style='new.TFrame')       # Ajout de l'onglet 1
 o1.pack()
 o2 = ttk.Frame(n)       # Ajout de l'onglet 2
 o2.pack()
+o3 = ttk.Frame(n)       # Ajout de l'onglet 3
+o3.pack()
 n.add(o1, text='Statistiques')      # Nom de l'onglet 1
 n.add(o2, text='Projections')      # Nom de l'onglet 2
+n.add(o3, text='Simulation de match')      # Nom de l'onglet 3
     
 def afficher_prp():
     full_name=str(e11.get())
@@ -196,6 +203,61 @@ b5.pack()
 
 lbl2 = tk.Label(o2)
 lbl2.pack()
+
+def creation_df_team ():
+    month=int(combo_month.get())
+    
+    equipe=str(combo_team.get())
+    
+    Opp=str(combo_Opp.get())
+    
+    df_team=proj_game.loc[(proj_game['Tm']==equipe)]
+    df_team['Opp']=Opp
+    df_team=create_df(df_team,month)
+    del df_team['Unnamed: 0']
+    del df_team['Unnamed: 0.1']
+    
+    df_roster=df_team[['full_name',"minutes"]]
+    afficher_team(df_roster)
+    return(df_team)
+
+def creation_df_Opp ():
+    month=int(combo_month.get())
+    
+    equipe=str(combo_team.get())
+    
+    Opp=str(combo_Opp.get())
+    
+    df_Opp=proj_game.loc[(proj_game['Tm']==Opp)]
+    df_Opp['Opp']=equipe
+    df_Opp=create_df(df_Opp,month)
+    del df_Opp['Unnamed: 0']
+    del df_Opp['Unnamed: 0.1']
+    
+    df_roster=df_Opp[['full_name',"minutes"]]
+    afficher_team(df_roster)
+    return(df_Opp)    
+    
+choix=list(np.unique(proj_game['Tm']))
+mois=list(range(1,13))
+
+combo_month = ttk.Combobox(o3, values=mois)
+combo_month.pack()
+
+combo_team = ttk.Combobox(o3, values=choix)
+combo_team.pack()
+
+combo_Opp = ttk.Combobox(o3, values=choix)
+combo_Opp.pack()
+
+b6 = tk.Button(o3, text="Roster domicile", command=creation_df_team)
+b6.pack()
+b7 = tk.Button(o3, text="Roster visiteur", command=creation_df_Opp)
+b7.pack()
+
+bval = tk.Button(o3, text="Valider la selection", command=lambda:[creation_df_team, creation_df_Opp, 
+                                                                  modif_roster(str(combo_team.get()),str(combo_Opp.get()),int(combo_month.get()))])
+bval.pack()
 
 root.bind('<Return>', show_pred)
 root.config(menu=menubar)

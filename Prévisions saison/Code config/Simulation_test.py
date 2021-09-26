@@ -147,7 +147,7 @@ final=[]
 
 for team in liste_team:
     sim = pd.DataFrame(columns={"Team","simulation","victoire","defaite"})
-    for i in range (80):
+    for i in range (1):
         bilan=simulation(team)
         sim=sim.append({"Team":team,"simulation":i,"victoire":sum(bilan['Victoire']),"defaite":sum(bilan['Défaite'])},
                        ignore_index=True)   
