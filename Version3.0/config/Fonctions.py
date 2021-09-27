@@ -17,6 +17,7 @@ from pandastable import Table
 
 df=pd.read_csv("data/data_ML.csv", sep=";")
 proj_game=pd.read_csv("data/Base_simu.csv",sep=";")
+indice=pd.read_csv("data/indice_team.csv",sep=";")
 
 def prp_en_carriere(full_name):
     data = pd.read_csv("data/evo_carriere.csv", sep =";")
@@ -34,6 +35,7 @@ def prp_en_carriere(full_name):
     plt.show()
 
 def stat_20matchs_splits(code,annee):
+
     root2 = tk.Tk()
     root2.geometry('1750x500')
     root2.iconbitmap('config/icone.ico')
@@ -53,7 +55,7 @@ def stat_20matchs_splits(code,annee):
     canvas.create_window(0,500,window=fram2, anchor='w')
     
     #Stat 15 derniers matchs
-    url = 'https://www.basketball-reference.com/players/a/'+str(code)+'01/gamelog/'+str(annee)
+    url = 'https://www.basketball-reference.com/players/a/'+str(code)+'/gamelog/'+str(annee)
     
     try :
         r = requests.get(url)
@@ -69,7 +71,7 @@ def stat_20matchs_splits(code,annee):
     except IndexError:        
         gotdata = 'null'
             
-    if annee<'2022' :
+    if annee<"2022" :
         indexNames = tab_data[tab_data['Rk'] == 'Rk' ].index
             # Delete these row indexes from dataFrame
         tab_data.drop(indexNames , inplace=True)
@@ -101,7 +103,7 @@ def stat_20matchs_splits(code,annee):
     for row in tab_data2_rows :
         td2.insert("","end", values = row)
     
-    url3 = 'https://www.basketball-reference.com/players/a/'+str(code)+'01/splits/'
+    url3 = 'https://www.basketball-reference.com/players/a/'+str(code)+'/splits/'
     df_splits_career=[]
 
     try :
@@ -419,16 +421,16 @@ def afficher_predictions(full_name, Opp, Opp_player,game_start,domicile,month,
     
     root5.mainloop()
 
-def absence(data):
-    try:
-        data = data.drop(data.loc[data['absence']==1].index)
-        data = data.drop(data.loc[data['minutes']==0].index)
-        return(data)
-    except:
-        pass
-
+def absence(data,player_list):
+    for player in player_list:
+        data = data.drop(data.loc[data['full_name']==player].index)
+    return(data)
+    
 def afficher_team(donnees):
     tableau = tk.Tk()
+    tableau.iconbitmap('config/icone.ico')
+    tableau.title("Roster")
+    
     frame = tk.Frame(tableau)
     frame.pack()
     
@@ -469,112 +471,140 @@ def create_df(data,month):
     data['absence']=0
     return(data)
     
-def simulation_match():
-    del proj_game['Unnamed: 0']
+def simulation_match(data):
+
     model=load("models/Ridge_PTS_simu.joblib")
-            
-    def simul_match(data,month):
-        data["Opp_code"]=data['POS'].map(str) + data['Opp'].map(str) + data['GS'].map(str)
     
-        liste_code = data['Opp_code']
-        Opp=(data['Opp'])
-        Opp=pd.DataFrame(Opp)
-        Opp=Opp.drop_duplicates(["Opp"])
-        Opp=str(*Opp["Opp"])
-        
-        codes=[]
-        for code in liste_code:
-            df_code=proj_game.loc[proj_game['code']==code]
-            df_code=df_code.drop_duplicates(['code'])
-            codes.append(df_code)
-        X = pd.concat(codes)
-        X = X[["code","cluster_def"]]
-        X= X.rename(columns={"code":"Opp_code","cluster_def":"cluster_player"})
-        Y = proj_game.loc[proj_game['Tm']==Opp]
-        Y=Y[["Tm","cluster_c"]]
-        Y = Y.drop_duplicates(["cluster_c"])
-        Y = Y.rename(columns={"Tm":"Opp","cluster_c":"cluster_coach"})
+    data['bonus_malus']=np.random.normal(1, 5.2, len(data))
+    data['minutes_var']=np.random.normal(0,3,len(data))
+    data['minutes']=data['minutes']+data['minutes_var']
     
-        data=pd.merge(data,X,on="Opp_code",how="left")
-        data=pd.merge(data,Y,on="Opp",how="left")
-        data = data.drop_duplicates(['full_name','Tm'],keep= 'last')
-        data['cluster_player']=data['cluster_player'].fillna(0)
-        
-        data['month']=month
-        data['bonus_malus']=0
-        data['absence']=0
-        
-        data['score']=model.predict(data)
-        data['ptspred']=np.exp(data['score'])
-        data['pts_pred']=data['ptspred']+data['bonus_malus']
-        data["score_tot"]=sum(data["pts_pred"])
-        data["score_fin"]=(data['score_tot']/sum(data["minutes"]))*240
-        return(data)
-    
-    def simulation(team_proj,Opp, month):
-        equipe=team_proj
-#        boxscore=pd.DataFrame(columns={"joueur","points"})
-        try:
-            month=month
-            df_team=proj_game.loc[(proj_game['Tm']==equipe)]
-            df_Opp=proj_game.loc[(proj_game['Tm']==Opp)]
-            df_team['Opp']=Opp
-            df_Opp['Opp']=equipe
-            df_team=absence(df_team,team_player_list)
-            df_Opp=absence(df_Opp,Opp_player_list)
-            df_team=simul_match(df_team,month)
-            df_Opp=simul_match(df_Opp,month) 
-                
-            score_t = df_team.drop_duplicates(['score_fin'],keep="last")
-            score_O = df_Opp.drop_duplicates(['score_fin'],keep="last")
-        except:
-                pass
-        return(df_team, df_Opp, score_t, score_O)
-    
-    team_player_list=["Jrue Holiday"]
-    Opp_player_list=[""]
-    A,B,C,D=simulation("mil","lal",10)
-    
+    data['score']=model.predict(data)
+    data['ptspred']=np.exp(data['score'])
+    data['pts_pred']=data['ptspred']+data['bonus_malus']
+    data["score_tot"]=sum(data["pts_pred"])
+    data["score_fin"]=(data['score_tot']/sum(data["minutes"]))*240
+    return(data)
+
+
 def modif_roster(equipe,Opp,month):
 
     fenet = tk.Tk()
-    lbox1=tk.Listbox(fenet,selectmode="multiple")
-    lbox2=tk.Listbox(fenet,selectmode="multiple")
-    lbox1.delete('0', 'end')
-    lbox2.delete('0', 'end')
+    fenet.geometry('450x300')
+    fenet.iconbitmap('config/icone.ico')
+    fenet.title("Selection des absents")
     
+    txt1=tk.Label(fenet,text="Choisir les joueurs absents")
+
+    lbox=tk.Listbox(fenet,selectmode="multiple")
+    lbox.delete('0', 'end')
+    
+    scrollbar = tk.Scrollbar(fenet)
+    scrollbar.grid(column=3,row=1)
+    
+    lbox.config(yscrollcommand = scrollbar.set, width=50)
+    scrollbar.config(command = lbox.yview)
+    
+    def simulation(df_team,df_Opp, month, player_list):
+        
+        finish=tk.Tk()
+        finish.geometry('500x75')
+        finish.iconbitmap('config/icone.ico')
+        finish.title("Pourcentage de victoire")
+        
+        score=tk.Label(finish,text="")
+        
+        df_team=df_team
+        df_Opp=df_Opp
+        month=month
+        player_list=player_list
+        
+        def game(df_team,df_Opp,month):
+            bilan=pd.DataFrame(columns={"Team","Opp","Victoire","Défaite","score_team",
+                     "score_opp"})
+            
+            try:
+                month=month
+                
+                df_team=absence(df_team,player_list)
+                df_Opp=absence(df_Opp,player_list)
+                df_team=simulation_match(df_team)
+                df_Opp=simulation_match(df_Opp) 
+                    
+                score_t = df_team.drop_duplicates(['score_fin'],keep="last")
+                score_O = df_Opp.drop_duplicates(['score_fin'],keep="last")
+                
+                ind_team=indice.loc[indice["Tm"]==equipe]
+                ind_opp=indice.loc[indice["Tm"]==Opp]
+           
+                score_team=float(score_t['score_fin'])*float(ind_team['indice'])
+                score_Opp=float(score_O['score_fin'])*float(ind_opp['indice'])
+                
+                if score_team>score_Opp:
+                    Victoire=1
+                    Defaite=0
+                else:
+                    Defaite=1
+                    Victoire=0
+                bilan=bilan.append({"Team":equipe,"Opp":Opp,"score_team":score_team,
+                                    "score_opp":score_Opp,"Victoire":Victoire,"Défaite":Defaite},ignore_index=True)
+                return(bilan)
+    
+            except:
+                    pass
+        final=[]
+
+        for i in range (100):
+            bilan=game(df_team,df_Opp,month)  
+            final.append(bilan)
+            
+        df_fin=pd.concat(final)
+        df_fin['victoire']=df_fin.Victoire.astype(float)
+        mean= df_fin.groupby(df_fin['Team']).sum().reset_index()
+        loss = 100-mean['victoire']
+        
+        score.config(text="Pour 100 simulations"+"\n"+
+                     "Nombre de victoires de "+str(equipe)+" "+ str(*mean['victoire'].values)+"\n"+
+                     "Nombre de victoires de "+str(Opp)+" "+str(*loss))
+        
+        score.pack()
+        finish.mainloop()
+                
     month=month
     
     equipe=equipe
     
     Opp=Opp
     
-    df_team=proj_game.loc[proj_game['Tm']==equipe]
-    df_team['Opp']=Opp
+    df_team=proj_game.loc[(proj_game['Tm']==equipe)]
+    df_team['Opp']=str(Opp)
     df_team=create_df(df_team,month)
-    del df_team['Unnamed: 0']
-    del df_team['Unnamed: 0.1']
     
-    df_Opp=proj_game.loc[proj_game['Tm']==Opp]
-    df_Opp['Opp']=equipe
+    df_Opp=proj_game.loc[(proj_game['Tm']==Opp)]
+    df_Opp['Opp']=str(equipe)
     df_Opp=create_df(df_Opp,month)
-    del df_Opp['Unnamed: 0']
-    del df_Opp['Unnamed: 0.1']
-    
-    nom_team = df_team['full_name']
+ 
+    frames = [df_team, df_Opp,]
 
-    nom_Opp = df_Opp['full_name']
+    result = pd.concat(frames)
     
+    nom = result['full_name']    
     
-    for x in nom_team:
-            lbox1.insert("end",x)
-            
+    for x in nom:
+            lbox.insert("end",x)
     
-    for x in nom_Opp:
-            lbox2.insert("end",x)
+    player_list=[]
+    for i in lbox.curselection():
+        result = lbox.get(i)
+        player_list.append(result)
+        return(player_list)
     
-    lbox1.grid(column=0,row=0)
-    lbox2.grid(column=1,row=0)
+    bpred=tk.Button(fenet,text="Lancer la prediction", command=lambda:[simulation(df_team,df_Opp,month,player_list)])
+    
+    txt1.grid(column=0,row=0)
+    lbox.grid(column=0,row=1)
+    bpred.grid(column=0,row=2)
+    
     
     fenet.mainloop()
     

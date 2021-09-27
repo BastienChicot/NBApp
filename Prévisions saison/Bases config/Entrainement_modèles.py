@@ -69,6 +69,12 @@ preprocessor = make_column_transformer((numeric_pipeline, numeric_data),
 
 Ridge = make_pipeline(preprocessor,RidgeCV(alphas=[0.61],cv=5))  
 Ridge.fit(X, y.values.ravel())
+# df1['pred']=Ridge.predict(df1)
+# df1['pts']=np.exp(df1['pred'])
+# df1['diff']=df1['PTS']-df1['pts']
+# np.percentile(df1['diff'],97.5)
+# np.percentile(df1['diff'],2.5)
+# np.std(df1['diff'])
 dump(Ridge, '../Ridge_PTS.joblib')
 print("Entrainement du modèle de prediction des points")
     

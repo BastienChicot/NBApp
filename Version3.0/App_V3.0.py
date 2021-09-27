@@ -91,7 +91,7 @@ def afficher_20last():
     try :
         full_name=str(e11.get())
         code_base = players_base.loc[players_base['full_name'] == full_name].values[0]
-        y = code_base[3:4]
+        y = code_base[2:3]
         code = ''.join(y)
         annee = '2021'
         stat_20matchs_splits(code,annee)
@@ -214,8 +214,6 @@ def creation_df_team ():
     df_team=proj_game.loc[(proj_game['Tm']==equipe)]
     df_team['Opp']=Opp
     df_team=create_df(df_team,month)
-    del df_team['Unnamed: 0']
-    del df_team['Unnamed: 0.1']
     
     df_roster=df_team[['full_name',"minutes"]]
     afficher_team(df_roster)
@@ -229,10 +227,8 @@ def creation_df_Opp ():
     Opp=str(combo_Opp.get())
     
     df_Opp=proj_game.loc[(proj_game['Tm']==Opp)]
-    df_Opp['Opp']=equipe
+    df_Opp['Opp']=str(equipe)
     df_Opp=create_df(df_Opp,month)
-    del df_Opp['Unnamed: 0']
-    del df_Opp['Unnamed: 0.1']
     
     df_roster=df_Opp[['full_name',"minutes"]]
     afficher_team(df_roster)
@@ -241,23 +237,32 @@ def creation_df_Opp ():
 choix=list(np.unique(proj_game['Tm']))
 mois=list(range(1,13))
 
+moi=tk.Label(o3,text="Choisir le mois de la rencontre")
+moi.grid(column=0,row=0)
+
 combo_month = ttk.Combobox(o3, values=mois)
-combo_month.pack()
+combo_month.grid(column=1,row=0)
+
+choixtm=tk.Label(o3,text="Choisir l'équipe 1")
+choixtm.grid(column=0,row=1)
 
 combo_team = ttk.Combobox(o3, values=choix)
-combo_team.pack()
+combo_team.grid(column=1,row=1)
+
+choixopp=tk.Label(o3,text="Choisir l'équipe 2")
+choixopp.grid(column=0,row=2)
 
 combo_Opp = ttk.Combobox(o3, values=choix)
-combo_Opp.pack()
+combo_Opp.grid(column=1,row=2)
 
 b6 = tk.Button(o3, text="Roster domicile", command=creation_df_team)
-b6.pack()
+b6.grid(column=0,row=3)
 b7 = tk.Button(o3, text="Roster visiteur", command=creation_df_Opp)
-b7.pack()
+b7.grid(column=1,row=3)
 
 bval = tk.Button(o3, text="Valider la selection", command=lambda:[creation_df_team, creation_df_Opp, 
                                                                   modif_roster(str(combo_team.get()),str(combo_Opp.get()),int(combo_month.get()))])
-bval.pack()
+bval.grid(row=5,column=1)
 
 root.bind('<Return>', show_pred)
 root.config(menu=menubar)
