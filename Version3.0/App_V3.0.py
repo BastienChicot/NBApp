@@ -20,6 +20,12 @@ players_base = pd.read_csv('data/nba_players.csv', sep=";")
 
 proj_game=pd.read_csv("data/Base_simu.csv",sep=";")
 
+liste_equipe=['ATL', 'BOS', 'BRK', 'CHI', 'CHO', 'CLE', 'DAL', 'DEN', 'DET',
+       'GSW', 'HOU', 'IND', 'LAC', 'LAL', 'MEM', 'MIA', 'MIL', 'MIN',
+       'NOP', 'NYK', 'OKC', 'ORL', 'PHI', 'PHO', 'POR', 'SAC', 'SAS',
+       'TOR', 'UTA', 'WAS']
+mois=list(range(1,13))
+
 root = tk.Tk()
 root.iconbitmap('config/icone.ico')
 root.title("NBApp pour parieur avertis")
@@ -101,28 +107,28 @@ def afficher_20last():
         label.pack() 
 
 def afficher_stats_team():
-    player_team = str(e21.get())
-    Opp = str(e31.get())
+    player_team = str(combo_equipe.get())
+    Opp = str(combo_equipe2.get())
     stat_teams(player_team,Opp)
 
 def afficher_stats_Oppteam():
     full_name=str(e11.get())
-    Opp = str(e31.get())
+    Opp = str(combo_equipe2.get())
     stat_Opp_team(full_name,Opp)
     
 l11 = tk.Label(o1, text="Saisir le nom du joueur")
 e11 = tk.Entry(o1)
-l21 = tk.Label(o1, text="Saisir le nom de l'équipe du joueur (3 lettres)")
-e21 = tk.Entry(o1)
-l31 = tk.Label(o1, text="Saisir le nom de l'équipe adverse (3 lettres)")
-e31 = tk.Entry(o1)
+l21 = tk.Label(o1, text="Choisir le nom de l'équipe du joueur")
+combo_equipe = ttk.Combobox(o1, values=liste_equipe)
+l31 = tk.Label(o1, text="Choisir le nom de l'équipe adverse")
+combo_equipe2 = ttk.Combobox(o1, values=liste_equipe)
 
 l11.pack()
 e11.pack()
 l21.pack()
-e21.pack()
+combo_equipe.pack()
 l31.pack()
-e31.pack()
+combo_equipe2.pack()
 
 b1 = tk.Button(o1, text='Afficher les prp moyens en carrière', command=afficher_prp)
 b1.pack()
@@ -138,11 +144,11 @@ lbl1.pack()
 
 def prepa_pred():
     full_name=str(e1.get())
-    Opp=str(e15.get())
+    Opp=str(combo_equipe3.get())
     Opp_player=str(e2.get())
     game_start = int(e3.get())
     domicile = int(e4.get())
-    month = int(e5.get())
+    month = int(choix_mois.get())
     minutes = int(e6.get())
     currentDateTime = datetime.datetime.now()
     date = currentDateTime.date()
@@ -154,11 +160,11 @@ def prepa_pred():
     
 def show_pred(event):
     full_name=str(e1.get())
-    Opp=str(e15.get())
+    Opp=str(combo_equipe3.get())
     Opp_player=str(e2.get())
     game_start = int(e3.get())
     domicile = int(e4.get())
-    month = int(e5.get())
+    month = int(choix_mois.get())
     minutes = int(e6.get())
     currentDateTime = datetime.datetime.now()
     date = currentDateTime.date()
@@ -170,23 +176,23 @@ def show_pred(event):
 
 l1 = tk.Label(o2, text="Saisir le nom du joueur")
 e1 = tk.Entry(o2)
-l15 = tk.Label(o2, text="Saisir le nom de l'équipe adverse (3 lettres)")
-e15 = tk.Entry(o2)
+l15 = tk.Label(o2, text="Choisir le nom de l'équipe adverse")
+combo_equipe3 = ttk.Combobox(o2, values=liste_equipe)
 l2 = tk.Label(o2, text="Saisir le nom de l'adversaire direct")
 e2 = tk.Entry(o2)
 l3 = tk.Label(o2, text="Game starter (1 pour oui, 0 sinon)")
 e3 = tk.Entry(o2)
 l4 = tk.Label(o2, text="Match à domicile (1 pour oui, 0 sinon)")
 e4 = tk.Entry(o2)
-l5 = tk.Label(o2, text="Saisir le mois de l'annee (chiffre de 1 à 12)")
-e5 = tk.Entry(o2)
+l5 = tk.Label(o2, text="Choisir le mois de l'annee")
+choix_mois=ttk.Combobox(o2, values=mois)
 l6 = tk.Label(o2, text="Nombre de minutes du joueur")
 e6 = tk.Entry(o2)
 
 l1.pack()
 e1.pack()
 l15.pack()
-e15.pack()
+combo_equipe3.pack()
 l2.pack()
 e2.pack()
 l3.pack()
@@ -194,7 +200,7 @@ e3.pack()
 l4.pack()
 e4.pack()
 l5.pack()
-e5.pack()
+choix_mois.pack()
 l6.pack()
 e6.pack()
 
@@ -235,7 +241,6 @@ def creation_df_Opp ():
     return(df_Opp)    
     
 choix=list(np.unique(proj_game['Tm']))
-mois=list(range(1,13))
 
 moi=tk.Label(o3,text="Choisir le mois de la rencontre")
 moi.grid(column=0,row=0)

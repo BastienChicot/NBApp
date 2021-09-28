@@ -16,6 +16,7 @@ from joblib import load
 from pandastable import Table
 
 df=pd.read_csv("data/data_ML.csv", sep=";")
+
 proj_game=pd.read_csv("data/Base_simu.csv",sep=";")
 indice=pd.read_csv("data/indice_team.csv",sep=";")
 
@@ -505,6 +506,8 @@ def modif_roster(equipe,Opp,month):
     lbox.config(yscrollcommand = scrollbar.set, width=50)
     scrollbar.config(command = lbox.yview)
     
+    progress_simul=ttk.Progressbar(fenet,orient="horizontal",length=100,mode='determinate')
+    
     def simulation(df_team,df_Opp, month, player_list):
         
         finish=tk.Tk()
@@ -553,10 +556,12 @@ def modif_roster(equipe,Opp,month):
             except:
                     pass
         final=[]
-
+        
         for i in range (100):
+            progress_simul['value']+=1
             bilan=game(df_team,df_Opp,month)  
             final.append(bilan)
+            finish.update_idletasks()
             
         df_fin=pd.concat(final)
         df_fin['victoire']=df_fin.Victoire.astype(float)
@@ -604,6 +609,7 @@ def modif_roster(equipe,Opp,month):
     txt1.grid(column=0,row=0)
     lbox.grid(column=0,row=1)
     bpred.grid(column=0,row=2)
+    progress_simul.grid(column=0,row=3)
     
     
     fenet.mainloop()
