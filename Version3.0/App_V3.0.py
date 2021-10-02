@@ -260,9 +260,9 @@ choixopp.grid(column=0,row=2)
 combo_Opp = ttk.Combobox(o3, values=choix)
 combo_Opp.grid(column=1,row=2)
 
-b6 = tk.Button(o3, text="Roster domicile", command=creation_df_team)
+b6 = tk.Button(o3, text="Roster équipe 1", command=creation_df_team)
 b6.grid(column=0,row=3)
-b7 = tk.Button(o3, text="Roster visiteur", command=creation_df_Opp)
+b7 = tk.Button(o3, text="Roster équipe 2", command=creation_df_Opp)
 b7.grid(column=1,row=3)
 
 bval = tk.Button(o3, text="Valider la selection", command=lambda:[creation_df_team, creation_df_Opp, 
