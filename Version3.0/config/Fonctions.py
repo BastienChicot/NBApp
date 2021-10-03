@@ -475,12 +475,13 @@ def create_df(data,month):
 def simulation_match(data):
 
     model=load("models/Ridge_PTS_simu.joblib")
-    
-    data['bonus_malus']=np.random.normal(1, 5.2, len(data))
+
     data['minutes_var']=np.random.normal(0,3,len(data))
     data['minutes']=data['minutes']+data['minutes_var']
+    del data['minutes_var']
     
     data['score']=model.predict(data)
+    data['bonus_malus']=np.random.normal(1, 5.2, len(data))
     data['ptspred']=np.exp(data['score'])
     data['pts_pred']=data['ptspred']+data['bonus_malus']
     data["score_tot"]=sum(data["pts_pred"])
@@ -531,6 +532,26 @@ def modif_roster(equipe,Opp,month):
                 
                 df_team=absence(df_team,player_list)
                 df_Opp=absence(df_Opp,player_list)
+                df_team = df_team[['full_name',
+                         'Tm',
+                        'GS','minutes',
+                        'month',
+                        'cluster_coach',
+                        'cluster_player',
+                        'age',
+                        'FGA_moy','TOV_moy','PF_moy',
+                        'Prod_mean_opp'
+                        ]]
+                df_Opp = df_Opp[['full_name',
+                         'Tm',
+                        'GS','minutes',
+                        'month',
+                        'cluster_coach',
+                        'cluster_player',
+                        'age',
+                        'FGA_moy','TOV_moy','PF_moy',
+                        'Prod_mean_opp'
+                        ]]
                 df_team=simulation_match(df_team)
                 df_Opp=simulation_match(df_Opp) 
                     
